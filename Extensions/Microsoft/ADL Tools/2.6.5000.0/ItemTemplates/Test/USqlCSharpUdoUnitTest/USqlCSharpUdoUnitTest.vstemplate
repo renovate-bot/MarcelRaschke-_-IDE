@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL C# UDO Unit Test</Name>
+    <Description>An empty unit test for U-SQL C# UDO</Description>
+    <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="216" />
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>UnitTest.cs</DefaultName>
+    <TemplateGroupID>TestProject-V1</TemplateGroupID>
+    <TemplateID>TestProject-V1-USqlCSharpUdoUnitTest</TemplateID>
+    <ShowByDefault>false</ShowByDefault>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">UnitTest1.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

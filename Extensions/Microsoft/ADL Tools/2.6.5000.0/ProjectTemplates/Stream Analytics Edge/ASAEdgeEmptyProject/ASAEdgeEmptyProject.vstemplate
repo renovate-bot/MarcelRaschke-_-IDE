@@ -1,0 +1,22 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Empty Azure Stream Analytics Edge Application</Name>
+    <TemplateID>Microsoft.Azure.StreamAnalytics.EmptyEdgeApplicationTemplate</TemplateID>
+    <Description>An empty project for an Azure Stream Analytics Edge application.</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>ASAEdgeEmptyProject.png</Icon>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ASAEdgeEmptyApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LanguageTag>querylanguage</LanguageTag>
+    <PlatformTag>azure</PlatformTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    <ProjectTypeTag>iot</ProjectTypeTag>
+    <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ASAEdgeEmptyProject.edgeproj" ReplaceParameters="true" />
+  </TemplateContent>
+</VSTemplate>

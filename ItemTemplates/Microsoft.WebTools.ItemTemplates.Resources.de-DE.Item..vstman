@@ -1,0 +1,2692 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\1031\DynamicDataWebApplicationField.cs</RelativePathOnDisk>
+    <TemplateFileName>DynamicDataField.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>DynamicDataField.ascx</DefaultName>
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3375" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3376" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4736" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <TemplateID>Microsoft.WAP.CSharp.DynamicDataWAPField</TemplateID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>3.5</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\1031\WebService</RelativePathOnDisk>
+    <TemplateFileName>WebService.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3032" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3033" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4516" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebService</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebService.asmx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\ContentPage</RelativePathOnDisk>
+    <TemplateFileName>ContentPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7000" />
+        <Description Package="{349c5850-65df-11da-9384-00065b846f21}" ID="1004" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.ContentPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebForm.aspx</DefaultName>
+        <SortOrder>25</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\MasterPage</RelativePathOnDisk>
+    <TemplateFileName>MasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7001" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3172" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.MasterPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Site.Master</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\NestedMasterPage</RelativePathOnDisk>
+    <TemplateFileName>NestedMasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7004" />
+        <Description Package="{349c5850-65df-11da-9384-00065b846f21}" ID="1008" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.NestedMasterPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>NestedMasterPage.master</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\SkinFile</RelativePathOnDisk>
+    <TemplateFileName>SkinFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7003" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3337" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4725" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.SkinFile</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Skin.skin</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\WebForm</RelativePathOnDisk>
+    <TemplateFileName>WebForm.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3062" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3063" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebForm</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebForm.aspx</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web Forms\1031\WebUserControl</RelativePathOnDisk>
+    <TemplateFileName>WebuserControl.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7002" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3108" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4544" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebUserControl</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebUserControl.ascx</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\JSON</RelativePathOnDisk>
+    <TemplateFileName>json.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1104" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1105" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2200" />
+        <TemplateID>Microsoft.WAP.CSharp.JSON</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>json.json</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\JSX</RelativePathOnDisk>
+    <TemplateFileName>jsx.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1122" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1123" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2300" />
+        <TemplateID>Microsoft.WAP.CSharp.JSX</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>jsx.jsx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\StyleSheetLESS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetLESS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1101" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1100" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2100" />
+        <TemplateID>Microsoft.WAP.CSharp.StyleSheetLESS</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.less</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\StyleSheetSCSS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetSCSS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1103" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1102" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2101" />
+        <TemplateID>Microsoft.WAP.CSharp.StyleSheetSCSS</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.scss</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\WebHtmlPage</RelativePathOnDisk>
+    <TemplateFileName>WebHtmlPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3070" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3071" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4537" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.HTMLPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>HtmlPage.html</DefaultName>
+        <SortOrder>5</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Markup\1031\WebStyleSheet</RelativePathOnDisk>
+    <TemplateFileName>WebStyleSheet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3072" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3073" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4538" />
+        <TemplateID>Microsoft.WAP.CSharp.WebStyleSheet</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.css</DefaultName>
+        <SortOrder>15</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Scripts\1031\WebJScript</RelativePathOnDisk>
+    <TemplateFileName>WebJScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3052" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3053" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4528" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebJScript</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>JavaScript.js</DefaultName>
+        <SortOrder>10</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\AspNetHandler</RelativePathOnDisk>
+    <TemplateFileName>AspNetHandler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3371" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3372" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.AspNetHandler</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>IISHandler.cs</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\AspNetModule</RelativePathOnDisk>
+    <TemplateFileName>AspNetModule.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3373" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3374" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.AspNetModule</TemplateID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>MyModule.cs</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\BrowserFile</RelativePathOnDisk>
+    <TemplateFileName>BrowserFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3338" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3339" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4726" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.BrowserFile</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>BrowserFile.browser</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\GlobalAsax</RelativePathOnDisk>
+    <TemplateFileName>GlobalAsax.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3066" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3067" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4535" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.GlobalAsax</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Global.asax</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\Handler</RelativePathOnDisk>
+    <TemplateFileName>Handler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3320" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3321" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.Handler</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Handler.ashx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\NestedWebConfig</RelativePathOnDisk>
+    <TemplateFileName>NestedWebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.NestedWebConfig</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\SiteMap</RelativePathOnDisk>
+    <TemplateFileName>SiteMap.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3324" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3325" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4724" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.SiteMap</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.sitemap</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\WebConfig</RelativePathOnDisk>
+    <TemplateFileName>WebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebConfig</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Data\1031\SqlDatabase</RelativePathOnDisk>
+    <TemplateFileName>SQLDatabase.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3322" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3323" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4723" />
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>Database.mdf</DefaultName>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.EmptyDatabase</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Code\1031\WebClass</RelativePathOnDisk>
+    <TemplateFileName>WebClass.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3020" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3021" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.CSharp.WebClass</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Class.cs</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\1031\DynamicDataWebApplicationField.vb</RelativePathOnDisk>
+    <TemplateFileName>DynamicDataField.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>DynamicDataField.ascx</DefaultName>
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3375" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3376" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4735" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <TemplateID>Microsoft.WAP.VisualBasic.DynamicDataWAPField</TemplateID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>3.5</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\1031\JScript</RelativePathOnDisk>
+    <TemplateFileName>JScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3052" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3053" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4528" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.JScript</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>JavaScript.js</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\1031\StyleSheet</RelativePathOnDisk>
+    <TemplateFileName>StyleSheet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3072" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3073" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4538" />
+        <TemplateID>Microsoft.WAP.VisualBasic.StyleSheet</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.css</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\1031\WebService</RelativePathOnDisk>
+    <TemplateFileName>WebService.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3032" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3033" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4516" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebService</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebService.asmx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\ContentPage</RelativePathOnDisk>
+    <TemplateFileName>ContentPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7000" />
+        <Description Package="{349c5850-65df-11da-9384-00065b846f21}" ID="1004" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.ContentPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebForm.aspx</DefaultName>
+        <SortOrder>25</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\MasterPage</RelativePathOnDisk>
+    <TemplateFileName>MasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7001" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3172" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.MasterPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Site.Master</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\NestedMasterPage</RelativePathOnDisk>
+    <TemplateFileName>NestedMasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7004" />
+        <Description Package="{349c5850-65df-11da-9384-00065b846f21}" ID="1008" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.NestedMasterPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>NestedMasterPage.master</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\SkinFile</RelativePathOnDisk>
+    <TemplateFileName>SkinFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7003" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3337" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4725" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.SkinFile</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Skin.skin</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\WebForm</RelativePathOnDisk>
+    <TemplateFileName>WebForm.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3062" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3063" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebForm</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebForm.aspx</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web Forms\1031\WebUserControl</RelativePathOnDisk>
+    <TemplateFileName>WebuserControl.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="7002" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3108" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4544" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebUserControl</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>WebUserControl.ascx</DefaultName>
+        <SortOrder>100</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\JSON</RelativePathOnDisk>
+    <TemplateFileName>json.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1104" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1105" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2200" />
+        <TemplateID>Microsoft.WAP.VisualBasic.JSON</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>json.json</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\JSX</RelativePathOnDisk>
+    <TemplateFileName>jsx.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1122" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1123" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2300" />
+        <TemplateID>Microsoft.WAP.VisualBasic.JSX</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>jsx.jsx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\StyleSheetLESS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetLESS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1101" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1100" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2100" />
+        <TemplateID>Microsoft.WAP.VisualBasic.StyleSheetLESS</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.less</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\StyleSheetSCSS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetSCSS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1103" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1102" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2101" />
+        <TemplateID>Microsoft.WAP.VisualBasic.StyleSheetSCSS</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.scss</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\WebHtmlPage</RelativePathOnDisk>
+    <TemplateFileName>WebHtmlPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3070" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3071" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4537" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.HTMLPage</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>HtmlPage.html</DefaultName>
+        <SortOrder>5</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Markup\1031\WebStyleSheet</RelativePathOnDisk>
+    <TemplateFileName>WebStyleSheet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3072" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3073" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4538" />
+        <TemplateID>Microsoft.WAP.VisualBasic.WebStyleSheet</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.css</DefaultName>
+        <SortOrder>15</SortOrder>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Scripts\1031\WebJScript</RelativePathOnDisk>
+    <TemplateFileName>WebJScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3052" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3053" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4528" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebJScript</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>JavaScript.js</DefaultName>
+        <SortOrder>10</SortOrder>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\AspNetHandler</RelativePathOnDisk>
+    <TemplateFileName>AspNetHandler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3371" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3372" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.AspNetHandler</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>IISHandler.vb</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\AspNetModule</RelativePathOnDisk>
+    <TemplateFileName>AspNetModule.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3373" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3374" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.AspNetModule</TemplateID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>MyModule.vb</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\BrowserFile</RelativePathOnDisk>
+    <TemplateFileName>BrowserFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3338" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3339" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4726" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.BrowserFile</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>BrowserFile.browser</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\GlobalAsax</RelativePathOnDisk>
+    <TemplateFileName>GlobalAsax.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3066" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3067" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4535" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.GlobalAsax</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Global.asax</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\Handler</RelativePathOnDisk>
+    <TemplateFileName>Handler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3320" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3321" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.Handler</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Handler.ashx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\NestedWebConfig</RelativePathOnDisk>
+    <TemplateFileName>NestedWebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.NestedWebConfig</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\SiteMap</RelativePathOnDisk>
+    <TemplateFileName>SiteMap.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3324" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3325" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4724" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.SiteMap</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.sitemap</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\General\1031\WebConfig</RelativePathOnDisk>
+    <TemplateFileName>WebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebConfig</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\1031\MyWebAppExtension</RelativePathOnDisk>
+    <TemplateFileName>MyWebExtension.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3167" />
+        <Description Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3168" />
+        <Icon Package="{B3BAE735-386C-4030-8329-EF48EEDA4036}" ID="4591" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>1000</SortOrder>
+        <DefaultName>MyWebExtension.vb</DefaultName>
+        <TemplateID>Microsoft.VisualBasic.Web.MyExtension</TemplateID>
+        <RequiredFrameworkVersion>3.0</RequiredFrameworkVersion>
+        <Hidden>true</Hidden>
+        <CustomDataSignature>Microsoft.VisualBasic.MyExtension</CustomDataSignature>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Data\1031\SqlDatabase</RelativePathOnDisk>
+    <TemplateFileName>SQLDatabase.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3322" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3323" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4723" />
+        <ProjectType>VisualBasic</ProjectType>
+        <DefaultName>Database.mdf</DefaultName>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.Data.EmptyDatabase</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Code\1031\WebClass</RelativePathOnDisk>
+    <TemplateFileName>WebClass.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3020" />
+        <Description Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="3021" />
+        <Icon Package="{164B10B9-B200-11D0-8C61-00A0C91E29D5}" ID="4510" />
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.WAP.VisualBasic.WebClass</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <ShowByDefault>false</ShowByDefault>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Class.vb</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\BrowserFile</RelativePathOnDisk>
+    <TemplateFileName>BrowserFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3338" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3339" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4726" />
+        <TemplateID>Microsoft.Web.CSharp.BrowserFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>BrowserFile.browser</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Class</RelativePathOnDisk>
+    <TemplateFileName>Class.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3020" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3021" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <TemplateID>Microsoft.Web.CSharp.Class</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Class.cs</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\DataSet</RelativePathOnDisk>
+    <TemplateFileName>DataSet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3316" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3317" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4518" />
+        <TemplateID>Microsoft.Web.CSharp.DataSet</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>DataSet.xsd</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\DynamicDataWebSiteField.cs</RelativePathOnDisk>
+    <TemplateFileName>DynamicDataField.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>DynamicDataField.ascx</DefaultName>
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3375" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3376" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4736" />
+        <TemplateID>Microsoft.Web.CSharp.DynamicDataWebSiteField</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>3.5</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\EmptyDatabase</RelativePathOnDisk>
+    <TemplateFileName>EmptyDatabase.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3322" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3323" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4723" />
+        <TemplateID>Microsoft.Web.CSharp.EmptyDatabase</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Database.mdf</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\GlobalAsax</RelativePathOnDisk>
+    <TemplateFileName>GlobalAsax.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3066" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3067" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4535" />
+        <TemplateID>Microsoft.Web.CSharp.GlobalAsax</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Global.asax</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Handler</RelativePathOnDisk>
+    <TemplateFileName>Handler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3320" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3321" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <TemplateID>Microsoft.Web.CSharp.Handler</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Handler.ashx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\HTMLPage</RelativePathOnDisk>
+    <TemplateFileName>HTMLPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3070" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3071" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4537" />
+        <TemplateID>Microsoft.Web.CSharp.HTMLPage</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>HtmlPage.html</DefaultName>
+        <SortOrder>2</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\JScript</RelativePathOnDisk>
+    <TemplateFileName>JScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3052" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3053" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4528" />
+        <TemplateID>Microsoft.Web.CSharp.JScript</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>JavaScript.js</DefaultName>
+        <SortOrder>4</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\JSON</RelativePathOnDisk>
+    <TemplateFileName>json.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1104" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1105" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2200" />
+        <TemplateID>Microsoft.Web.CSharp.JSON</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>json.json</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\JSX</RelativePathOnDisk>
+    <TemplateFileName>jsx.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1122" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1123" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2300" />
+        <TemplateID>Microsoft.Web.CSharp.JSX</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>jsx.jsx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\MasterPage</RelativePathOnDisk>
+    <TemplateFileName>MasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3171" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3172" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <TemplateID>Microsoft.Web.CSharp.MasterPage</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <DefaultName>MasterPage.master</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\NestedWebConfig</RelativePathOnDisk>
+    <TemplateFileName>NestedWebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <TemplateID>Microsoft.Web.CSharp.NestedWebConfig</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Resource</RelativePathOnDisk>
+    <TemplateFileName>Resource.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3105" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3106" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4548" />
+        <TemplateID>Microsoft.Web.CSharp.Resource</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Resource.resx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\SiteMap</RelativePathOnDisk>
+    <TemplateFileName>SiteMap.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3324" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3325" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4724" />
+        <TemplateID>Microsoft.Web.CSharp.SiteMap</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.sitemap</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\SkinFile</RelativePathOnDisk>
+    <TemplateFileName>SkinFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3336" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3337" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4725" />
+        <TemplateID>Microsoft.Web.CSharp.SkinFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>SkinFile.skin</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\StyleSheet</RelativePathOnDisk>
+    <TemplateFileName>StyleSheet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3072" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3073" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4538" />
+        <TemplateID>Microsoft.Web.VisualBasic.StyleSheet</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>StyleSheet.css</DefaultName>
+        <SortOrder>6</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\StyleSheetLESS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetLESS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1101" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1100" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2100" />
+        <TemplateID>Microsoft.Web.CSharp.StyleSheetLESS</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.less</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\StyleSheetSCSS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetSCSS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1103" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1102" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2101" />
+        <TemplateID>Microsoft.Web.CSharp.StyleSheetSCSS</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.scss</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\TextFile</RelativePathOnDisk>
+    <TemplateFileName>TextFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3054" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3055" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4529" />
+        <TemplateID>Microsoft.Web.CSharp.TextFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>TextFile.txt</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\vwdsettings</RelativePathOnDisk>
+    <TemplateFileName>vwdsettings.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Hidden>True</Hidden>
+        <TemplateID>Microsoft.Web.CSharp.WebSettings</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\WebConfig</RelativePathOnDisk>
+    <TemplateFileName>WebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <TemplateID>Microsoft.Web.CSharp.WebConfig</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\WebForm</RelativePathOnDisk>
+    <TemplateFileName>WebForm.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3062" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3063" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <TemplateID>Microsoft.Web.CSharp.WebForm</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <DefaultName>Default.aspx</DefaultName>
+        <SortOrder>10</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\WebService</RelativePathOnDisk>
+    <TemplateFileName>WebService.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3032" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3033" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4516" />
+        <TemplateID>Microsoft.Web.CSharp.WebService</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <DefaultName>WebService.asmx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\WebUserControl</RelativePathOnDisk>
+    <TemplateFileName>WebuserControl.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3107" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3108" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4544" />
+        <TemplateID>Microsoft.Web.CSharp.WebUserControl</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <DefaultName>WebUserControl.ascx</DefaultName>
+        <SortOrder>40</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\XMLFile</RelativePathOnDisk>
+    <TemplateFileName>XMLFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3074" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3075" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4539" />
+        <TemplateID>Microsoft.Web.CSharp.XMLFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XMLFile.xml</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\XSLTFile</RelativePathOnDisk>
+    <TemplateFileName>XSLTFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3334" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3335" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4542" />
+        <TemplateID>Microsoft.Web.CSharp.XSLTFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XSLTFile.xslt</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\XMLSchema</RelativePathOnDisk>
+    <TemplateFileName>XMLSchema.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3036" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3037" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4518" />
+        <TemplateID>Microsoft.Web.CSharp.XMLSchema</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XMLSchema.xsd</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\BrowserFile</RelativePathOnDisk>
+    <TemplateFileName>BrowserFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3338" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3339" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4726" />
+        <TemplateID>Microsoft.Web.VisualBasic.BrowserFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>BrowserFile.browser</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Class</RelativePathOnDisk>
+    <TemplateFileName>Class.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3020" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3021" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <TemplateID>Microsoft.Web.VisualBasic.Class</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Class.vb</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\DataSet</RelativePathOnDisk>
+    <TemplateFileName>DataSet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3316" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3317" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4518" />
+        <TemplateID>Microsoft.Web.VisualBasic.DataSet</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>DataSet.xsd</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\DynamicDataWebSiteField.vb</RelativePathOnDisk>
+    <TemplateFileName>DynamicDataField.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>DynamicDataField.ascx</DefaultName>
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3375" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3376" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4735" />
+        <TemplateID>Microsoft.Web.VisualBasic.DynamicDataWebSiteField</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>3.5</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\EmptyDatabase</RelativePathOnDisk>
+    <TemplateFileName>EmptyDatabase.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3322" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3323" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4723" />
+        <TemplateID>Microsoft.Web.VisualBasic.EmptyDatabase</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Database.mdf</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\GlobalAsax</RelativePathOnDisk>
+    <TemplateFileName>GlobalAsax.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3066" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3067" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4535" />
+        <TemplateID>Microsoft.Web.VisualBasic.GlobalAsax</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Global.asax</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Handler</RelativePathOnDisk>
+    <TemplateFileName>Handler.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3320" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3321" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4722" />
+        <TemplateID>Microsoft.Web.VisualBasic.Handler</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Handler.ashx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\HTMLPage</RelativePathOnDisk>
+    <TemplateFileName>HTMLPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3070" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3071" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4537" />
+        <TemplateID>Microsoft.Web.VisualBasic.HTMLPage</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>HtmlPage.html</DefaultName>
+        <SortOrder>2</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\JScript</RelativePathOnDisk>
+    <TemplateFileName>JScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3052" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3053" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4528" />
+        <TemplateID>Microsoft.Web.VisualBasic.JScript</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>JavaScript.js</DefaultName>
+        <SortOrder>4</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\JSON</RelativePathOnDisk>
+    <TemplateFileName>json.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1104" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1105" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2200" />
+        <TemplateID>Microsoft.Web.VisualBasic.JSON</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>json.json</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\JSX</RelativePathOnDisk>
+    <TemplateFileName>jsx.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1122" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1123" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2300" />
+        <TemplateID>Microsoft.Web.VisualBasic.JSX</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>jsx.jsx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\MasterPage</RelativePathOnDisk>
+    <TemplateFileName>MasterPage.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3171" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3172" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4709" />
+        <TemplateID>Microsoft.Web.VisualBasic.MasterPage</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <DefaultName>MasterPage.master</DefaultName>
+        <SortOrder>20</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\NestedWebConfig</RelativePathOnDisk>
+    <TemplateFileName>NestedWebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <TemplateID>Microsoft.Web.VisualBasic.NestedWebConfig</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Resource</RelativePathOnDisk>
+    <TemplateFileName>Resource.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3105" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3106" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4548" />
+        <TemplateID>Microsoft.Web.VisualBasic.Resource</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Resource.resx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\SiteMap</RelativePathOnDisk>
+    <TemplateFileName>SiteMap.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3324" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3325" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4724" />
+        <TemplateID>Microsoft.Web.VisualBasic.SiteMap</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.sitemap</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\SkinFile</RelativePathOnDisk>
+    <TemplateFileName>SkinFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3336" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3337" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4725" />
+        <TemplateID>Microsoft.Web.VisualBasic.SkinFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>SkinFile.skin</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\StyleSheet</RelativePathOnDisk>
+    <TemplateFileName>StyleSheet.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3072" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3073" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4538" />
+        <TemplateID>Microsoft.Web.CSharp.StyleSheet</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>StyleSheet.css</DefaultName>
+        <SortOrder>6</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\StyleSheetLESS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetLESS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1101" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1100" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2100" />
+        <TemplateID>Microsoft.Web.VisualBasic.StyleSheetLESS</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.less</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\StyleSheetSCSS</RelativePathOnDisk>
+    <TemplateFileName>StyleSheetSCSS.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1103" />
+        <Description Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="1102" />
+        <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="2101" />
+        <TemplateID>Microsoft.Web.VisualBasic.StyleSheetSCSS</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>StyleSheet.scss</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\TextFile</RelativePathOnDisk>
+    <TemplateFileName>TextFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3054" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3055" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4529" />
+        <TemplateID>Microsoft.Web.VisualBasic.TextFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>TextFile.txt</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\vwdsettings</RelativePathOnDisk>
+    <TemplateFileName>vwdsettings.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Hidden>True</Hidden>
+        <TemplateID>Microsoft.Web.VisualBasic.WebSettings</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\WebConfig</RelativePathOnDisk>
+    <TemplateFileName>WebConfig.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3076" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3077" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4540" />
+        <TemplateID>Microsoft.Web.VisualBasic.WebConfig</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>Web.config</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\WebForm</RelativePathOnDisk>
+    <TemplateFileName>WebForm.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3062" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3063" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4533" />
+        <TemplateID>Microsoft.Web.VisualBasic.WebForm</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>10</SortOrder>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <DefaultName>Default.aspx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\WebService</RelativePathOnDisk>
+    <TemplateFileName>WebService.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3032" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3033" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4516" />
+        <TemplateID>Microsoft.Web.VisualBasic.WebService</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <DefaultName>WebService.asmx</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\WebUserControl</RelativePathOnDisk>
+    <TemplateFileName>WebuserControl.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3107" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3108" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4544" />
+        <TemplateID>Microsoft.Web.VisualBasic.WebUserControl</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SupportsCodeSeparation>true</SupportsCodeSeparation>
+        <DefaultName>WebUserControl.ascx</DefaultName>
+        <SortOrder>40</SortOrder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\XMLFile</RelativePathOnDisk>
+    <TemplateFileName>XMLFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3074" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3075" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4539" />
+        <TemplateID>Microsoft.Web.VisualBasic.XMLFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XMLFile.xml</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\XSLTFile</RelativePathOnDisk>
+    <TemplateFileName>XSLTFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3334" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3335" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4542" />
+        <TemplateID>Microsoft.Web.VisualBasic.XSLTFile</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XSLTFile.xslt</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\XMLSchema</RelativePathOnDisk>
+    <TemplateFileName>XMLSchema.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3036" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3037" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4518" />
+        <TemplateID>Microsoft.Web.VisualBasic.XMLSchema</TemplateID>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <DefaultName>XMLSchema.xsd</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\XMLToSchema</RelativePathOnDisk>
+    <TemplateFileName>XmlToSchema.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3169" />
+        <Description Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="3170" />
+        <Icon>XmlToSchema.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <DefaultName>XmlToSchema.xsd</DefaultName>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <TemplateID>Microsoft.Web.VisualBasic.XmlToSchema</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\MVC\1031\MvcLayoutPageItemTemplatev5.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>MvcLayoutPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_LayoutPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21114" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21115" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcLayoutPageItemTemplate.cshtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\MVC\1031\MvcPartialPageItemTemplatev5.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>MvcPartialPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_PartialPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21118" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21119" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcPartialPageItemTemplate.cshtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\MVC\1031\MvcViewPageItemTemplatev5.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>MvcViewPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ViewPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21116" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21117" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>40</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcViewPageItemTemplate.cshtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\MVC\1031\MvcViewPageWithLayoutItemTemplatev5.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>MvcViewPageWithLayoutItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ViewPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21112" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21113" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>45</SortOrder>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcViewPageWithLayoutItemTemplate.cshtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\SignalR\1031\SignalRHubItemTemplatev5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>SignalRHubItemTemplate.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21126" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21127" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>55</SortOrder>
+        <DefaultName>MyHub.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRHubItemTemplates.WAP.12.cs.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\SignalR\1031\SignalRPersistentConnectionItemTemplatev5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>SignalRPersistentConnectionItemTemplate.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21128" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21129" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>60</SortOrder>
+        <DefaultName>MyConnection.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRPersistentConnection.WAP.12.cs.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Web API\1031\WebApiControllerItemTemplatev5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>WebApiControllerItemTemplate.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21124" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21125" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>50</SortOrder>
+        <DefaultName>ValuesController.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>WebApiControllerItemTemplate.WAP.cs.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Razor\1031\ContentPageItemTemplateWapRazorv3.0.0.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>RazorContentPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ContentPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21132" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21133" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorContentPage.cshtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Razor\1031\HelperItemTemplateWapRazorv3.0.0.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>RazorHelperItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Helper1.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21135" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21136" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorHelper.cshtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Razor\1031\LayoutPageItemTemplateWapRazorv3.0.0.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>RazorLayoutPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_Layout.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21138" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21139" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorLayoutPage.cshtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\Razor\1031\WebPageItemTemplateWapRazorv3.0.0.0.cshtml</RelativePathOnDisk>
+    <TemplateFileName>RazorWebPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>WebPage.cshtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21141" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21142" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22002" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorWebPage.cshtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>CSharp\Web\General\1031\OwinStartupItemTemplatev5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>OwinStartupItemTemplate.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21130" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21131" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>100</SortOrder>
+        <DefaultName>Startup.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>OwinStartupItemTemplate.WAP.12.cs.vstemplate.v5</TemplateID>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>true</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\OwinStartupItemTemplateWebv5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>OwinStartupItemTemplateWeb.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21130" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21131" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <DefaultName>Startup.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>OwinStartupItemTemplates.WEB.12.cs.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\SignalRHubItemTemplateWebv5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>SignalRHubItemTemplateWeb.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21126" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21127" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <DefaultName>MyHub.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRHubItemTemplates.WEB.12.cs.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\SignalRPersistentConnectionItemTemplateWebv5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>SignalRPersistentConnectionItemTemplateWeb.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21128" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21129" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <DefaultName>MyConnection.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRPersistentConnection.WEB.12.cs.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\WebApiControllerItemTemplateWebv5.0.cs</RelativePathOnDisk>
+    <TemplateFileName>WebApiControllerItemTemplateWeb.cs.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21124" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21125" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4703" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <DefaultName>ValuesController.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>WebApiControllerItemTemplate.WEB.cs.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\MVC\1031\MvcLayoutPageItemTemplatev5.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>MvcLayoutPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_LayoutPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21114" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21121" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcLayoutPageItemTemplate.vbhtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\MVC\1031\MvcPartialPageItemTemplatev5.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>MvcPartialPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_PartialPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21118" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21123" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcPartialPageItemTemplate.vbhtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\MVC\1031\MvcViewPageItemTemplatev5.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>MvcViewPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ViewPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21116" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21122" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>40</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcViewPageItemTemplate.vbhtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\MVC\1031\MvcViewPageWithLayoutItemTemplatev5.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>MvcViewPageWithLayoutItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ViewPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21112" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21120" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>45</SortOrder>
+        <SupportsMasterPage>true</SupportsMasterPage>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>MvcViewPageWithLayoutItemTemplate.vbhtml.vstemplate.v5</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\SignalR\1031\SignalRHubItemTemplatev5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>SignalRHubItemTemplate.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21126" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21127" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>55</SortOrder>
+        <DefaultName>MyHub.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRHubItemTemplates.WAP.12.vb.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\SignalR\1031\SignalRPersistentConnectionItemTemplatev5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>SignalRPersistentConnectionItemTemplate.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21128" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21129" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>60</SortOrder>
+        <DefaultName>MyConnection.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRPersistentConnection.WAP.12.vb.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Razor\1031\ContentPageItemTemplateWapRazorv3.0.0.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>RazorContentPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ContentPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21132" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21134" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorContentPage.vbhtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Razor\1031\HelperItemTemplateWapRazorv3.0.0.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>RazorHelperItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Helper1.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21135" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21137" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorHelper.vbhtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Razor\1031\LayoutPageItemTemplateWapRazorv3.0.0.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>RazorLayoutPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_Layout.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21138" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21140" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorLayoutPage.vbhtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Razor\1031\WebPageItemTemplateWapRazorv3.0.0.0.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>RazorWebPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>WebPage.vbhtml</DefaultName>
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21141" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21143" />
+        <Icon Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="22003" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>RazorWebPage.vbhtml.vstemplate.v3</TemplateID>
+        <TemplateGroupID>Razor</TemplateGroupID>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>VisualBasic\Web\Web API\1031\WebApiControllerItemTemplatev5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>WebApiControllerItemTemplate.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21124" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21125" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>VisualBasic</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <SortOrder>50</SortOrder>
+        <DefaultName>ValuesController.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>WebApiControllerItemTemplate.WAP.vb.vstemplate.v5</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\SignalRHubItemTemplateWebv5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>SignalRHubItemTemplateWeb.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21126" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21127" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <DefaultName>MyHub.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRHubItemTemplates.WEB.12.vb.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\SignalRPersistentConnectionItemTemplateWebv5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>SignalRPersistentConnectionItemTemplateWeb.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21128" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21129" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <DefaultName>MyConnection.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>SignalRPersistentConnection.WEB.12.vb.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\WebApiControllerItemTemplateWebv5.0.vb</RelativePathOnDisk>
+    <TemplateFileName>WebApiControllerItemTemplateWeb.vb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21124" />
+        <Description Package="{B54016DB-B3E6-4960-8262-81772C777DE9}" ID="21125" />
+        <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4510" />
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <DefaultName>ValuesController.vb</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+        <TemplateID>WebApiControllerItemTemplate.WEB.vb.vstemplate.v5</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Razor3ContentPageItemTemplate.cshtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3ContentPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ContentPage.cshtml</DefaultName>
+        <Name>Inhaltsseite (Razor v3)</Name>
+        <Description>Inhaltsseite mit Razor-Syntax (CSHTML)</Description>
+        <Icon>cshtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3ContentPage.cshtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Razor3EmptyPageItemTemplate.cshtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3EmptyPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Empty.cshtml</DefaultName>
+        <Name>Leere Seite (Razor v3)</Name>
+        <Description>Leere Seite mit Razor-Syntax (CSHTML)</Description>
+        <Icon>cshtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3EmptyPage.cshtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Razor3HelperItemTemplate.cshtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3HelperItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Helper1.cshtml</DefaultName>
+        <Name>Hilfsmethode (Razor v3)</Name>
+        <Description>Hilfsmethode mit Razor-Syntax (CSHTML)</Description>
+        <Icon>cshtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3Helper.cshtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Razor3LayoutPageItemTemplate.cshtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3LayoutPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_Layout.cshtml</DefaultName>
+        <Name>Layoutseite (Razor v3)</Name>
+        <Description>Layoutseite mit Razor-Syntax (CSHTML)</Description>
+        <Icon>cshtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3LayoutPage.cshtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\CSharp\1031\Razor3WebPageItemTemplate.cshtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3WebPageItemTemplate.cshtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>WebPage.cshtml</DefaultName>
+        <Name>Webseite (Razor v3)</Name>
+        <Description>Webseite mit Razor-Syntax (CSHTML)</Description>
+        <Icon>cshtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3WebPage.cshtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Razor3ContentPageItemTemplate.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3ContentPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>ContentPage.vbhtml</DefaultName>
+        <Name>Inhaltsseite (Razor v3)</Name>
+        <Description>Inhaltsseite mit Razor-Syntax (VBHTML)</Description>
+        <Icon>vbhtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3ContentPage.vbhtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Razor3EmptyPageItemTemplate.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3EmptyPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Empty.vbhtml</DefaultName>
+        <Name>Leere Seite (Razor v3)</Name>
+        <Description>Leere Seite mit Razor-Syntax (VBHTML)</Description>
+        <Icon>vbhtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3EmptyPage.vbhtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Razor3HelperItemTemplate.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3HelperItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>Helper1.vbhtml</DefaultName>
+        <Name>Hilfsmethode (Razor v3)</Name>
+        <Description>Hilfsmethode mit Razor-Syntax (VBHTML)</Description>
+        <Icon>vbhtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3Helper.vbhtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Razor3LayoutPageItemTemplate.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3LayoutPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>_Layout.vbhtml</DefaultName>
+        <Name>Layoutseite (Razor v3)</Name>
+        <Description>Layoutseite mit Razor-Syntax (VBHTML)</Description>
+        <Icon>vbhtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3LayoutPage.vbhtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item" Locale="1031">
+    <RelativePathOnDisk>Web\VisualBasic\1031\Razor3WebPageItemTemplate.vbhtml</RelativePathOnDisk>
+    <TemplateFileName>Razor3WebPageItemTemplate.vbhtml.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <DefaultName>WebPage.vbhtml</DefaultName>
+        <Name>Webseite (Razor v3)</Name>
+        <Description>Webseite mit Razor-Syntax (VBHTML)</Description>
+        <Icon>vbhtmlfile.11.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>VisualBasic</ProjectSubType>
+        <SortOrder>11</SortOrder>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <TemplateID>Razor3WebPage.vbhtml.vstemplate</TemplateID>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

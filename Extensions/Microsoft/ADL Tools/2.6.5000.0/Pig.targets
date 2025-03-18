@@ -1,0 +1,38 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <!-- UseStandardMsBuildTool by default -->
+    <UseStandardMsBuildTool Condition=" '$(UseStandardMsBuildTool)' == ''">true</UseStandardMsBuildTool>
+  </PropertyGroup>
+  
+  <!--Import the standards targets-->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition=" '$(UseStandardMsBuildTool)' == 'true'" />
+  
+  <PropertyGroup>
+     <!-- the %%PROJECT_BUILD_TASK_ASSEMBLY_PATH%% will be replaced to an absolute path in HDIStudio-->
+    <CompilerTaskAssemblyFile Condition=" '$(CompilerTaskAssemblyFile)' == ''">%%PROJECT_BUILD_TASK_ASSEMBLY_PATH%%</CompilerTaskAssemblyFile>
+    <DefaultLanguageSourceExtension>.pig</DefaultLanguageSourceExtension>
+    <Language>PIG</Language>
+  </PropertyGroup>
+
+    <!-- This is important: Override the "CoreCompile" target defined in Microsoft.Common.targets so that hive task gets called -->
+    <Target Name="CoreCompile"  />
+
+    <!-- 
+    Override the GetFrameworkPaths action to do nothing, this is to stop the "build" action to complain about
+    "Could not locate the .NET Framework SDK.  The task is looking for the path to the .NET Framework SDK at 
+    the location specified in the SDKInstallRootv2.0 value of the registry key 
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework."
+  -->
+  <Target Name="GetFrameworkPaths" />
+
+  <!-- This CreateManifestResourceNames target does nothing, it is here to stop msbuild from complaining. -->
+  <PropertyGroup>
+    <CreateManifestResourceNamesDependsOn />
+  </PropertyGroup>
+
+  <Target Name="CreateManifestResourceNames"
+          Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''"
+          DependsOnTargets="$(CreateManifestResourceNamesDependsOn)"/>
+  
+</Project>

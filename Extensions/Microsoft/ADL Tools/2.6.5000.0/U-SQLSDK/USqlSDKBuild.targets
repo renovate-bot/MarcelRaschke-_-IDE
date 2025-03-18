@@ -1,0 +1,136 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <!-- UseStandardMsBuildTool by default -->
+    <UseStandardMsBuildTool Condition="'$(UseStandardMsBuildTool)' == ''">true</UseStandardMsBuildTool>
+  </PropertyGroup>
+  
+  <!--Import the standards targets-->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="'$(UseStandardMsBuildTool)' == 'true'" />
+  
+  <PropertyGroup>
+    <!-- assume the build task dll is the same as target file, then search USQLSDKPath -->
+    <_DefaultCompilerTaskAssemblyFile Condition="Exists('Microsoft.Analytics.CICD.USQL.MsBuild.dll')">Microsoft.Analytics.CICD.USQL.MsBuild.dll</_DefaultCompilerTaskAssemblyFile>
+    <_DefaultCompilerTaskAssemblyFile Condition="'$(_DefaultCompilerTaskAssemblyFile)' == '' And '$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\Microsoft.Analytics.CICD.USQL.MsBuild.dll')">$(USQLSDKPath)\Microsoft.Analytics.CICD.USQL.MsBuild.dll</_DefaultCompilerTaskAssemblyFile>
+    
+    <USQLCompilerTaskAssemblyFile Condition="'$(USQLCompilerTaskAssemblyFile)' == ''">$(_DefaultCompilerTaskAssemblyFile)</USQLCompilerTaskAssemblyFile>
+    <USQLCompilerTaskClassNamespace Condition="'$(USQLCompilerTaskClassNamespace)' == ''">Microsoft.Analytics.CICD.USQL.MsBuild</USQLCompilerTaskClassNamespace>
+    <DefaultLanguageSourceExtension>.usql</DefaultLanguageSourceExtension>
+    <Language>U-SQL</Language>
+  </PropertyGroup>
+
+  <!--Reference the assembly where our tasks are defined-->
+  <UsingTask TaskName="$(USQLCompilerTaskClassNamespace).USqlCompilerTask"
+    AssemblyFile="$(USQLCompilerTaskAssemblyFile)" />
+
+  <!--Compile target (this is the target that calls the compiler task)-->
+  <Target Name="USqlCompilerTarget"
+      Inputs="$(ActiveFile);@(Script);@(ScriptCode);@(Content);$(MSBuildAllProjects);@(ReferencePath)"
+      Outputs="@(IntermediateAssembly)">
+
+    <PropertyGroup>
+        <!-- Build script selection conditions
+          1. Build all scripts if 'Build_all_files_in_this_project' is set to 'true'
+          2. Else build '$(JustOneFile)' if it is set to none null'
+          3. Else build all scripts if both 'Build_all_files_in_this_project' and 'JustOneFile' are not set
+          4. Else build '$(ActiveFile)'
+        -->
+        <_FileToBuild_></_FileToBuild_>
+        <_FileToBuild_ Condition="'$(Build_all_files_in_this_project)' == 'true' ">Build_all_files_in_this_project</_FileToBuild_>
+        <_FileToBuild_ Condition="'$(_FileToBuild_)' == '' and '$(JustOneFile)' != '' ">$(JustOneFile)</_FileToBuild_>
+        <_FileToBuild_ Condition="'$(_FileToBuild_)' == '' and '$(JustOneFile)' == '' and '$(Build_all_files_in_this_project)' == '' ">Build_all_files_in_this_project</_FileToBuild_>
+        <_FileToBuild_ Condition="'$(_FileToBuild_)' == '' and '$(ActiveFile)' != '' ">$(ActiveFile)</_FileToBuild_>
+    </PropertyGroup>
+  
+    <Message Importance="High" Text="Building Script: %(FileToBuild.Identity)" />
+
+    <USqlCompilerTask
+      SourceFiles="@(Script)"
+      CodeBehindFiles="@(ScriptCode)"
+      CurrentBuildFile="$(_FileToBuild_)"
+      ProjectDirectory="$(MSBuildProjectDirectory)"
+      ProjectFile="$(MSBuildProjectFile)"
+      OutputPath="$(OutputPath)"
+      ReferencedAssemblies="@(ReferencePath)"
+      BuildResultFile="@(IntermediateAssembly)"
+      USQLTargetType="$(USQLTargetType)"
+      IsInternalProject="$(IsInternalProject)"
+      LocalAccount="$(LocalAccount)"
+      Database="$(Database)"
+      Schema="$(Schema)"
+      DataRoot="$(DataRoot)"
+      USQLSDKPath="$(USQLSDKPath)"
+      CppSDKPath="$(CppSDKPath)"
+      CheckInputFiles="$(CheckInputFiles)"
+      EnableDeployment="$(EnableDeployment)"
+      Deployments="@(TempDeploy)"
+      PackageDeployments="@(ArtifactReference)"
+      PreferMetadataDeployment="$(PreferMetadataDeployment)"
+      AlternativeDeployments="$(USqlLocalTestDataFolders)"
+      AlternativeDeploymentForceOverwrite="$(USqlLocalTestDataFolderForceOverwrite)"
+      Configuration="$(Configuration)"
+      DebugSymbols="$(DebugSymbols)"
+      GenerateFullPackage="$(GenerateFullPackage)"
+      RowsetDebugOutputDirectory="$(RowsetDebugOutputDirectory)"
+      RowsetDebugInstrumentHeader="$(RowsetDebugInstrumentHeader)"
+      RowsetDebugInstrumentTail="$(RowsetDebugInstrumentTail)"
+      RowsetDebugInstrumentStatement="$(RowsetDebugInstrumentStatement)"
+      EnableScriptUserData="$(EnableScriptUserData)"
+      ScriptUserData="@(ScriptUserData)"
+    />
+  </Target>
+
+  <!-- This is important:
+  Override the "CoreCompile" target defined in Microsoft.Common.targets so that Usql compile gets called -->
+  <Target
+    Name="CoreCompile"
+    Inputs="$(ActiveFile);@(Script);@(ScriptCode);$(MSBuildAllProjects)"
+    Outputs="@(IntermediateAssembly)"
+    DependsOnTargets="USqlCompilerTarget"/>
+
+  <!-- 
+    Override the GetFrameworkPaths action to do nothing, this is to stop the "build" action to complain about
+    "Could not locate the .NET Framework SDK.  The task is looking for the path to the .NET Framework SDK at 
+    the location specified in the SDKInstallRootv2.0 value of the registry key 
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework."
+  -->
+  <Target Name="GetFrameworkPaths" />
+
+
+  <!-- This CreateManifestResourceNames target does nothing, 
+  it is here to stop msbuild from complaining. -->
+  <PropertyGroup>
+    <CreateManifestResourceNamesDependsOn></CreateManifestResourceNamesDependsOn>
+  </PropertyGroup>
+
+  <Target
+    Name="CreateManifestResourceNames"
+    Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''"
+    DependsOnTargets="$(CreateManifestResourceNamesDependsOn)">
+  </Target>
+
+  <UsingTask TaskName="$(USQLCompilerTaskClassNamespace).USqlCleanTask"
+  AssemblyFile="$(USQLCompilerTaskAssemblyFile)" />
+
+  <Target Name="CleanUSqlGenFolder">
+    <Message Importance="High" Text="Clean U-SQL Build Output Folder." />
+    <USqlCleanTask
+        ProjectPath="$(MSBuildProjectDirectory)"
+        OutputPath="$(OutputPath)"
+        BuildingInsideVisualStudio="$(BuildingInsideVisualStudio)"
+    />
+  </Target>
+
+  <PropertyGroup>
+    <CleanDependsOn>
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanUSqlGenFolder;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    </CleanDependsOn>
+  </PropertyGroup>
+  
+</Project>

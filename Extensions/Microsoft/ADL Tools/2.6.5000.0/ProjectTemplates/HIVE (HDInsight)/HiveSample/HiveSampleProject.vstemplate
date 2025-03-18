@@ -1,0 +1,20 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Hive Sample</Name>
+    <TemplateID>Microsoft.Azure.HDInsight.HiveSampleApplicationTemplate</TemplateID>
+    <Description>Hive getting start sample</Description>
+    <Icon>HiveSampleProject.png</Icon>
+    <ProjectType>Hive Items</ProjectType>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>HiveSample</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="HiveSample.hiveproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="SensorDataAnalysis.hql">SensorDataAnalysis.hql</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="WebLogAnalysis.hql">WebLogAnalysis.hql</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

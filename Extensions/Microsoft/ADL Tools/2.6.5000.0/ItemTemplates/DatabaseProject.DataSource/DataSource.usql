@@ -1,0 +1,9 @@
+﻿CREATE DATA SOURCE IF NOT EXISTS [$safeitemname$]
+FROM AZURESQLDB
+WITH
+(
+    PROVIDER_STRING = "Database=AdventureWorksLT;Trusted_Connection=False;Encrypt=True",
+    CREDENTIAL = MyAzureSQLDBCredential,
+    REMOTABLE_TYPES = (bool, byte, sbyte, short, ushort, int, 
+                       uint, long, ulong, decimal, float, double, string, DateTime)
+);

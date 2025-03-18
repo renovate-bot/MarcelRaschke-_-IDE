@@ -1,0 +1,19 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Hive Application</Name>
+    <TemplateID>Microsoft.Azure.HDInsight.HiveApplicationTemplate</TemplateID>
+    <Description>A project for creating Hive application</Description>
+    <Icon>HiveProject.png</Icon>
+    <ProjectType>Hive Items</ProjectType>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>HiveApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="HiveProject.hiveproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="Script.hql">Script.hql</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

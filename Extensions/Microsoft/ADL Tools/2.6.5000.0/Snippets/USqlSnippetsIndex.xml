@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SnippetCollection>
+  <!-- guid CE0B201A-1F8B-42A5-AD08-72026287EA92 is U-SQL language services guid-->
+    <Language Lang="U-SQL Language" Guid="{CE0B201A-1F8B-42A5-AD08-72026287EA92}">
+        <SnippetDir>
+            <OnOff>On</OnOff>
+            <Installed>true</Installed>
+            <Locale>1033</Locale>
+            <DirPath>U-SQL\</DirPath>
+            <LocalizedName>Snippets</LocalizedName>
+        </SnippetDir>
+    </Language>
+</SnippetCollection>

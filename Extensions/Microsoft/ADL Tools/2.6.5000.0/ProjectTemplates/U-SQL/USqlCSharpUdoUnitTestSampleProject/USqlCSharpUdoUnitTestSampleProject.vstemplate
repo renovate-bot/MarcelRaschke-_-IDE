@@ -1,0 +1,27 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL C# UDO Unit Test Sample Project</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLCSharpUDOUnitTestSampleTemplate</TemplateId>
+    <Description>A project that contains unit tests and UDO samples for U-SQL C# UDO</Description>
+    <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531" />
+    <ProjectType>U-SQL C# UDO Unit Test Items</ProjectType>
+    <ProjectSubType>USqlCSharpUdoUnitTestProject</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>USqlCSharpUdoUnitTestProjectSample</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="USqlCSharpUdoSample">
+        USqlCSharpUdoSample\USqlCSharpUdoSample.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$">
+        USqlCSharpUdoUnitTestSample\USqlCSharpUdoUnitTestSample.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

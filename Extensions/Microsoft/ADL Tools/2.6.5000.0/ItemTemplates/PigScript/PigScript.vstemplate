@@ -1,0 +1,13 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Pig Script</Name>
+    <Description>An empty Pig script</Description>
+    <Icon>PigScript.png</Icon>
+    <ProjectType>Pig Items</ProjectType>
+    <DefaultName>Script.pig</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.pig" OpenInEditor="true" BuildAction="Script">Script.pig</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

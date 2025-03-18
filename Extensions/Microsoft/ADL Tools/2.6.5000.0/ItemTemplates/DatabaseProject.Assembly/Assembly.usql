@@ -1,0 +1,6 @@
+﻿CREATE ASSEMBLY IF NOT EXISTS [$safeitemname$]
+FROM "$safeitemname$.dll"
+WITH ADDITIONAL FILES =
+     (
+         "$safeitemname$.pdb"
+    );

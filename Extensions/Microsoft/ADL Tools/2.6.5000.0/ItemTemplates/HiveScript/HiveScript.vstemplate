@@ -1,0 +1,13 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Hive Script</Name>
+    <Description>An empty Hive script</Description>
+    <Icon>HiveScript.png</Icon>
+    <ProjectType>Hive Items</ProjectType>
+    <DefaultName>Script.hql</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.hql" OpenInEditor="true" BuildAction="Script">Script.hql</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

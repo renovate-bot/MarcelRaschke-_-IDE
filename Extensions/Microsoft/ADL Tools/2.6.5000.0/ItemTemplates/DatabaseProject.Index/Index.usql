@@ -1,0 +1,4 @@
+﻿CREATE CLUSTERED INDEX IF NOT EXISTS $safeitemname$ 
+ON dbo.Orders(OrderID, CustomerID ASC)
+PARTITIONED BY (OrderDate)
+DISTRIBUTED BY HASH (OrderID, CustomerID);

@@ -1,0 +1,62 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Storm Items\1033\StormBatchBolt</RelativePathOnDisk>
+    <TemplateFileName>StormBatchBolt.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Batch Bolt</Name>
+        <Description>An batch bolt file for storm topology</Description>
+        <Icon>StormBatchBolt.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>BatchBolt.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Storm Items\1033\StormBolt</RelativePathOnDisk>
+    <TemplateFileName>StormBolt.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Bolt</Name>
+        <Description>An bolt file for storm topology</Description>
+        <Icon>StormBolt.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>Bolt.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Storm Items\1033\StormSpout</RelativePathOnDisk>
+    <TemplateFileName>StormSpout.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Spout</Name>
+        <Description>An spout file for storm topology</Description>
+        <Icon>StormSpout.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>Spout.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Storm Items\1033\StormTxSpout</RelativePathOnDisk>
+    <TemplateFileName>StormTxSpout.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm TxSpout</Name>
+        <Description>An tx spout file for storm topology</Description>
+        <Icon>StormTxSpout.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>TxSpout.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

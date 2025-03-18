@@ -1,0 +1,22 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>VC\Python\PythonExtensionModule</RelativePathOnDisk>
+    <TemplateFileName>PythonTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{6dbd7c1e-1f1b-496d-ac7c-c55dae66c783}" ID="5024" />
+        <Description Package="{6dbd7c1e-1f1b-496d-ac7c-c55dae66c783}" ID="5025" />
+        <ProjectType>VC</ProjectType>
+        <TemplateID>Microsoft.Python.Cpp.NativeModule</TemplateID>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <DefaultName>module</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

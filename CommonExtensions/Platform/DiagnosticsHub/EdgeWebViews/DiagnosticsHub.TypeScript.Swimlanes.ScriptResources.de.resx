@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RulerMarkTooltipLabel" xml:space="preserve">
+    <value> bei {0}</value>
+    <comment>{0} is replaced with the formatted time the mark fired.</comment>
+  </data>
+  <data name="RulerAriaLabel" xml:space="preserve">
+    <value>Das Lineal hat einen Mindestwert von {0} und einen Höchstwert von {1}.</value>
+    <comment>{0} and {1} are time with units</comment>
+  </data>
+  <data name="RulerLeftSliderAriaLabel" xml:space="preserve">
+    <value>Linker Zeitfilter</value>
+    <comment>Name of the control for selecting time regions on a line graph</comment>
+  </data>
+  <data name="RulerRightSliderAriaLabel" xml:space="preserve">
+    <value>Rechter Zeitfilter</value>
+    <comment>Name of the control for selecting time regions on a line graph</comment>
+  </data>
+  <data name="RulerSliderAriaValueText" xml:space="preserve">
+    <value>Aktueller Wert: {0}. Mindestwert: {1}. Maximalwert: {2}.</value>
+    <comment>{0}, {1} and {2} are time with units</comment>
+  </data>
+  <data name="RulerLifecycleMarkLabel" xml:space="preserve">
+    <value>Markierung des App-Lebenszyklus</value>
+  </data>
+  <data name="RulerUserMarkLabel" xml:space="preserve">
+    <value>Benutzermarkierung</value>
+  </data>
+  <data name="UserMarkTooltip" xml:space="preserve">
+    <value>Zeigt mit der LoggingChannel-API protokollierte Nachrichten an</value>
+  </data>
+  <data name="RulerMarkLabel" xml:space="preserve">
+    <value>Eine Linealmarkierung, die auf das Auftreten der folgenden Ereignisse hinweist: {0}</value>
+    <comment>{0} is replaced with the tooltip content of the ruler mark(s)</comment>
+  </data>
+  <data name="RulerTitle" xml:space="preserve">
+    <value>Diagnosesitzung: {0}</value>
+  </data>
+  <data name="RulerTitleWithSelection" xml:space="preserve">
+    <value>Diagnosesitzung: {0} ({1})</value>
+    <comment>The localized total time will be formatted into 0, and the localized selection time will be formatted into 1.</comment>
+  </data>
+  <data name="MillisecondsLabel" xml:space="preserve">
+    <value>Millisekunden</value>
+  </data>
+  <data name="MinutesLabel" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="SecondsLabel" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="MinutesAbbreviation" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="MillisecondsAbbreviation" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="SecondsAbbreviation" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ToolbarZoomInButton" xml:space="preserve">
+    <value>Vergrößern</value>
+  </data>
+  <data name="ToolbarZoomToSelectionButton" xml:space="preserve">
+    <value>Zoommodus: Auswahl</value>
+  </data>
+  <data name="ToolbarZoomOutButton" xml:space="preserve">
+    <value>Verkleinern</value>
+  </data>
+  <data name="ToolbarClearSelectionButton" xml:space="preserve">
+    <value>Auswahl löschen</value>
+  </data>
+  <data name="ToolbarActivateOutputWindowButton" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="ToolbarResetViewButton" xml:space="preserve">
+    <value>Ansicht zurücksetzen</value>
+  </data>
+  <data name="ToolbarResetZoomButton" xml:space="preserve">
+    <value>Zoom zurücksetzen</value>
+  </data>
+  <data name="TooltipTimeLabel" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="TooltipValueLabel" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="ChartSeriesFormattableTimeLabel" xml:space="preserve">
+    <value>Zeit: {0}</value>
+  </data>
+  <data name="ChartSeriesFormattableTooltipLabel" xml:space="preserve">
+    <value>Wert: {0}</value>
+  </data>
+  <data name="DataCursorInterpolatingTooltip" xml:space="preserve">
+    <value>Nächste Daten</value>
+  </data>
+  <data name="ToolbarStopCollectionButton" xml:space="preserve">
+    <value>Sammlung beenden</value>
+  </data>
+  <data name="ToolbarStopCollectionTooltip" xml:space="preserve">
+    <value>Sammlung beenden (STRG+UMSCHALT+F2)</value>
+  </data>
+  <data name="RulerAggregatedMarks" xml:space="preserve">
+    <value>Markierung für Zusammenführung</value>
+  </data>
+  <data name="LifecycleMarkTooltip" xml:space="preserve">
+    <value>Zeigt grundlegende Lebensdauerereignisse der App an</value>
+  </data>
+  <data name="MergedMarkTooltip" xml:space="preserve">
+    <value>Zeigt an, dass Markierungen von mindestens zwei Typen vorhanden sind</value>
+  </data>
+  <data name="RulerMarkNavigation" xml:space="preserve">
+    <value>Linealmarkierungen, navigieren Sie mit der NACH-LINKS- und der NACH-RECHTS-TASTE.</value>
+  </data>
+  <data name="ToolSelectionDropDownHeaderText" xml:space="preserve">
+    <value>Auswahltools</value>
+  </data>
+  <data name="ToolSelectionChangesNextDebugSession" xml:space="preserve">
+    <value>Änderungen an den ausgewählten Tools werden in der nächsten Debugsitzung angewendet.</value>
+  </data>
+  <data name="UnsupportedBrowser" xml:space="preserve">
+    <value>Für den Inhalt ist eine &lt;a&gt;neue Version von Internet Explorer&lt;/a&gt; erforderlich.</value>
+  </data>
+  <data name="UnsupportedBrowserLabel" xml:space="preserve">
+    <value>Klicken Sie hier, um eine neuere Version von Internet Explorer herunterzuladen.</value>
+  </data>
+  <data name="RulerTimeSelected" xml:space="preserve">
+    <value>{0} {1} ausgewählt</value>
+    <comment>{0} is time and {1} is units. e.g. 1.00 milliseconds selected or 1.00 ms selected</comment>
+  </data>
+  <data name="FormattedNumberWithUnits" xml:space="preserve">
+    <value>{0}{1}</value>
+    <comment>This is the format string for numbers that appear in the UI with a unit word associated with them. {0} will be replaced by a localized number such as 1.8 (e.g. 1,8 in German) and {1} will be replaced by the technical unit of size such as B for Bytes</comment>
+  </data>
+  <data name="FormattedNumberWithUnitsTableView" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>This is the format string for numbers that appear in the UI with a unit word associated with them. {0} will be replaced by a localized number such as 1.8 (e.g. 1,8 in German) and {1} will be replaced by the technical unit of size such as B for Bytes</comment>
+  </data>
+  <data name="ToolSelectionSettingsAriaLabel" xml:space="preserve">
+    <value>Tooleinstellungen konfigurieren</value>
+  </data>
+  <data name="ToolSelectionSettingsText" xml:space="preserve">
+    <value>Einstellungen...</value>
+  </data>
+  <data name="OpenInPerfView" xml:space="preserve">
+    <value>In PerfView öffnen</value>
+  </data>
+  <data name="FormattedPercentage" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ChartSeriesFormattableTooltipLabelNumberWithUnit" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>This is the format string for numbers that appear in the swimlane with a unit word associated with them. {0} will be replaced by a localized number such as 1.8 (e.g. 1,8 in German) and {1} will be replaced by the technical unit of size such as B for Bytes</comment>
+  </data>
+  <data name="CountersDataSeriesTooltipNumberWithFormat" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>This is the format string for numbers with units in the tooltip when hovering over swimlane above chart.</comment>
+  </data>
+  <data name="Size_byte" xml:space="preserve">
+    <value>B</value>
+    <comment>Unit for byte(singular)</comment>
+  </data>
+  <data name="Size_bytes" xml:space="preserve">
+    <value>B</value>
+    <comment>Unit for byte(plural)</comment>
+  </data>
+  <data name="Size_exbibyte" xml:space="preserve">
+    <value>EiB</value>
+    <comment>Unit for exbibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_gibibyte" xml:space="preserve">
+    <value>GiB</value>
+    <comment>Unit for gibibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_kibibyte" xml:space="preserve">
+    <value>KiB</value>
+    <comment>Unit for kibibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_mebibyte" xml:space="preserve">
+    <value>MiB</value>
+    <comment>Unit for mebibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_pebibyte" xml:space="preserve">
+    <value>PiB</value>
+    <comment>Unit for pebibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_tebibyte" xml:space="preserve">
+    <value>TiB</value>
+    <comment>Unit for tebibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_yobibyte" xml:space="preserve">
+    <value>YiB</value>
+    <comment>Unit for yobibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Size_zebibyte" xml:space="preserve">
+    <value>ZIB</value>
+    <comment>Unit for zebibyte(base 1024, binary)</comment>
+  </data>
+  <data name="Time_nanos" xml:space="preserve">
+    <value>ns</value>
+  </data>
+  <data name="Time_micros" xml:space="preserve">
+    <value>μs</value>
+  </data>
+  <data name="Time_millis" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="Time_s" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ToolbarAddUserMarkButton" xml:space="preserve">
+    <value>Benutzermarkierung hinzufügen</value>
+  </data>
+  <data name="ToolbarAddUserMarkTooltip" xml:space="preserve">
+    <value>Benutzermarkierung hinzufügen</value>
+  </data>
+  <data name="ToolbarToggleCollectionButton" xml:space="preserve">
+    <value>Sammlung starten</value>
+    <comment>Record here is a verb, indicating to the user to start recording</comment>
+  </data>
+  <data name="ToolbarEnableCollectionTooltip" xml:space="preserve">
+    <value>Profilerstellung aktivieren</value>
+  </data>
+  <data name="ToolbarDisableCollectionTooltip" xml:space="preserve">
+    <value>Profilerstellung deaktivieren</value>
+  </data>
+  <data name="CountBUnit" xml:space="preserve">
+    <value>Mrd.</value>
+    <comment>Abbreviation for 1000000000's of count</comment>
+  </data>
+  <data name="CountKUnit" xml:space="preserve">
+    <value>Tsd.</value>
+    <comment>Abbreviation for 1000's of count</comment>
+  </data>
+  <data name="CountMUnit" xml:space="preserve">
+    <value>Mio.</value>
+    <comment>Abbreviation for 1000000's of count</comment>
+  </data>
+  <data name="Histogram_Legend_Tooltip" xml:space="preserve">
+    <value>Perzentile dieser Messung</value>
+    <comment>Tooltip for a histogram legend</comment>
+  </data>
+  <data name="Histogram_Legend_50th" xml:space="preserve">
+    <value>50.</value>
+    <comment>Indicate a histogram graph Legend is for 50th percentile of measurement</comment>
+  </data>
+  <data name="Histogram_Legend_95th" xml:space="preserve">
+    <value>95.</value>
+    <comment>Indicate a histogram graph Legend is for 95th percentile of measurement</comment>
+  </data>
+  <data name="Histogram_Legend_99th" xml:space="preserve">
+    <value>99.</value>
+    <comment>Indicate a histogram graph Legend is for 99th percentile of measurement</comment>
+  </data>
+  <data name="Button_FilterViewApply" xml:space="preserve">
+    <value>Anwenden</value>
+    <comment>Label for a button to apply filtering changes</comment>
+  </data>
+  <data name="Button_FilterViewCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Label for a button to cancel applying filtering changes</comment>
+  </data>
+  <data name="ProcessSelectionDropDownHeaderText" xml:space="preserve">
+    <value>Prozess</value>
+    <comment>Label for process filtering dropdown</comment>
+  </data>
+  <data name="ProcessIdFormat" xml:space="preserve">
+    <value>PID: {0}</value>
+    <comment>Label for each process in the dropdown menu, where {0} is the process id (an integer number) </comment>
+  </data>
+  <data name="ProcessSelectionDropDownSelectAll" xml:space="preserve">
+    <value>(Alle auswählen)</value>
+    <comment>Label for a checkbox to select all</comment>
+  </data>
+</root>

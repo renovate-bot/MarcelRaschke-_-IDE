@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Script</Name>
+    <Description>An empty Azure Stream Analytics Edge script</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>ASAScript.png</Icon>
+    <DefaultName>Script.asaql</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.asaql" OpenInEditor="true" BuildAction="Script">Script.asaql</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.asaql.cs" OpenInEditor="false" BuildAction="Script">Script.asaql.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,13 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Job Configure</Name>
+    <Description>A Default Azure Stream Analytics Edge Job Configure</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>EdgeJobConfigure.png</Icon>
+    <DefaultName>JobConfig.json</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.json" OpenInEditor="false" BuildAction="Configure">JobConfig.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

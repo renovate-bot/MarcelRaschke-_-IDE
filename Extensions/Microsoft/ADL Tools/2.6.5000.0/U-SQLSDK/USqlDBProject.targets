@@ -1,0 +1,104 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <!-- UseStandardMsBuildTool by default -->
+    <UseStandardMsBuildTool Condition="'$(UseStandardMsBuildTool)' == ''">true</UseStandardMsBuildTool>
+  </PropertyGroup>
+  
+  <!--Import the standards targets-->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="'$(UseStandardMsBuildTool)' == 'true'" />
+  
+  <PropertyGroup>
+    <!-- Use USQLSDKPath first if it is specified, otherwise use the task dll in the same folder. -->
+    <DefaultDBProjTaskAssemblyFile Condition="'$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\Microsoft.Analytics.CICD.DBProject.MsBuild.dll')">$(USQLSDKPath)\Microsoft.Analytics.CICD.DBProject.MsBuild.dll</DefaultDBProjTaskAssemblyFile>
+    <DefaultDBProjTaskAssemblyFile Condition="'$(DefaultDBProjTaskAssemblyFile)' == ''">Microsoft.Analytics.CICD.DBProject.MsBuild.dll</DefaultDBProjTaskAssemblyFile>
+    
+    <DBProjTaskAssemblyFile Condition="'$(DBProjTaskAssemblyFile)' == ''">$(DefaultDBProjTaskAssemblyFile)</DBProjTaskAssemblyFile>
+    <DBProjTaskClassNamespace Condition="'$(DBProjTaskClassNamespace)' == ''">Microsoft.Analytics.CICD.DBProject.MsBuild</DBProjTaskClassNamespace>
+    <DefaultLanguageSourceExtension>.usql</DefaultLanguageSourceExtension>
+    <Language>U-SQL</Language>
+  </PropertyGroup>
+
+  <!--Reference the assembly where our tasks are defined-->
+  <UsingTask TaskName="$(DBProjTaskClassNamespace).DBProjTask" AssemblyFile="$(DBProjTaskAssemblyFile)" />
+
+  <!--db project target (this is the target that calls the db project build task)-->
+  <Target Name="USqlDBDeployPackage"
+      Inputs="@(Script);@(Deploy);@(TempDeploy);@(Content);$(MSBuildAllProjects);@(ReferencePath)"
+      Outputs="@(IntermediateAssembly)">
+    
+    <DBProjTask
+      SourceFiles="@(Script)"
+      Deployments="@(Deploy)"
+      TempDeployments="@(TempDeploy)"
+      ProjectDirectory="$(MSBuildProjectDirectory)"
+      ProjectFile="$(MSBuildProjectFile)"
+      OutputPath="$(OutputPath)"
+      ReferencedAssemblies="@(ReferencePath)"
+      BuildResultFile="@(IntermediateAssembly)"
+      DBProjTargetType="$(DBProjTargetType)"
+      USQLSDKPath="$(USQLSDKPath)"
+      CppSDKPath="$(CppSDKPath)"
+      GenerateMetadataOpr="$(GenerateMetadataOpr)"
+      IsTargetPathCaseSensitive="$(IsTargetPathCaseSensitive)"
+      TargetDirectorySeparator="$(TargetDirectorySeparator)"
+      IncludeAssemblyPDBFile="$(IncludeAssemblyPDBFile)"
+      AllowDropStatement="$(AllowDropStatement)"
+      AllowDataDropStatement="$(AllowDataDropStatement)"
+      SuppressWarnings="$(DBProjSuppressWarnings)"
+    />
+  </Target>
+
+  <!-- This is important:
+  Override the "CoreCompile" target defined in Microsoft.Common.targets so that our target gets called -->
+  <Target
+    Name="CoreCompile"
+    Inputs="@(Script);@(Deploy);@(TempDeploy);$(MSBuildAllProjects)"
+    Outputs="@(IntermediateAssembly)"
+    DependsOnTargets="USqlDBDeployPackage"/>
+
+  <!-- 
+    Override the GetFrameworkPaths action to do nothing, this is to stop the "build" action to complain about
+    "Could not locate the .NET Framework SDK.  The task is looking for the path to the .NET Framework SDK at 
+    the location specified in the SDKInstallRootv2.0 value of the registry key 
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework."
+  -->
+  <Target Name="GetFrameworkPaths" />
+
+
+  <!-- This CreateManifestResourceNames target does nothing, 
+  it is here to stop msbuild from complaining. -->
+  <PropertyGroup>
+    <CreateManifestResourceNamesDependsOn></CreateManifestResourceNamesDependsOn>
+  </PropertyGroup>
+
+  <Target
+    Name="CreateManifestResourceNames"
+    Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''"
+    DependsOnTargets="$(CreateManifestResourceNamesDependsOn)">
+  </Target>
+
+  <UsingTask TaskName="$(DBProjTaskClassNamespace).DBProjCleanTask" AssemblyFile="$(DBProjTaskAssemblyFile)" />
+
+  <Target Name="CleanDBProjOutputFolder">
+    <Message Importance="High" Text="Clean DB Deployment Build Output Folder." />
+    <DBProjCleanTask
+        ProjectPath="$(MSBuildProjectDirectory)"
+        OutputPath="$(OutputPath)"
+        BuildingInsideVisualStudio="$(BuildingInsideVisualStudio)"
+    />
+  </Target>
+
+  <PropertyGroup>
+    <CleanDependsOn>
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanDBProjOutputFolder;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    </CleanDependsOn>
+  </PropertyGroup>
+  
+</Project>

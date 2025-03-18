@@ -1,0 +1,8 @@
+﻿CREATE EXTERNAL TABLE IF NOT EXISTS [dbo].[$safeitemname$]
+(
+    SystemInformationID byte,
+    [Database Version] string,
+    VersionDate DateTime,
+    ModifiedDate DateTime
+)
+FROM MyAzureSQLDBDataSource LOCATION "[dbo].[BuildVersion]";

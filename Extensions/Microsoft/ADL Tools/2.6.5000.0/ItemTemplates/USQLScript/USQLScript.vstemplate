@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL Script</Name>
+    <Description>An empty U-SQL Script</Description>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+    <ProjectType>U-SQL Items</ProjectType>
+    <DefaultName>Script.usql</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.usql" OpenInEditor="true" BuildAction="Script">Script.usql</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.usql.cs" OpenInEditor="false" BuildAction="ScriptCode">Script.usql.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

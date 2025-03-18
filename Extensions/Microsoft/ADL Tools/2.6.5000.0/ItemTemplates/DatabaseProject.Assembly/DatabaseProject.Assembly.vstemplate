@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Assembly Script</Name>
+    <Description>an empty assembly script</Description>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+    <ProjectType>U-SQL Database Items</ProjectType>
+    <TemplateID>USQLDatabase</TemplateID>
+    <DefaultName>Assembly.usql</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Assembly" ReplaceParameters="true" TargetFileName="$fileinputname$.usql" OpenInEditor="true" BuildAction="Script">Assembly.usql</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

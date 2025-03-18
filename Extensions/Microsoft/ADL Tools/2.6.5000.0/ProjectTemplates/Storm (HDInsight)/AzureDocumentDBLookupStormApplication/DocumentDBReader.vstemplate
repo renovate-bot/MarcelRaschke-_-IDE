@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Storm DocumentDB Reader Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.DocumentDBReaderSampleApplicationTemplate</TemplateID>
+        <Description>A storm project for azure documentdb reader, it is available for hdinsight cluster which version >= 3.2</Description>
+        <Icon>DocumentDBReader.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DocumentDBReaderSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+    </TemplateData>
+    <TemplateContent>
+        <Project File="DocumentDBReader.csproj" ReplaceParameters="true">
+            <ProjectItem ReplaceParameters="true" OpenInEditor="true">DocumentDBLookupTopology.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true" OpenInEditor="true">App.config</ProjectItem>
+            <ProjectItem ReplaceParameters="true">DocumentDbLookupBolt.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true">Vehicle.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true">VehicleRecordGeneratorSpoutForDocumentDB.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+            <ProjectItem>StormProject.props</ProjectItem>
+        </Project>
+    </TemplateContent>
+</VSTemplate>

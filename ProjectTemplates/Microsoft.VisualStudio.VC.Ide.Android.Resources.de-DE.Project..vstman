@@ -1,0 +1,96 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project" Locale="1031">
+    <RelativePathOnDisk>VC\Cross Platform\Android\1031\Android_Makefile</RelativePathOnDisk>
+    <TemplateFileName>Makefile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Makefile-Projekt (Android)</Name>
+        <Description>Ein Android-Projekt für die Verwendung eines externen Buildsystems.</Description>
+        <ProjectType>VC</ProjectType>
+        <TemplateID>Microsoft.MDD.VC.Android.MakeFile</TemplateID>
+        <SortOrder>3000</SortOrder>
+        <DefaultName>Project</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>CPPPhone.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project" Locale="1031">
+    <RelativePathOnDisk>VC\Cross Platform\Android\1031\DynamicLibrary</RelativePathOnDisk>
+    <TemplateFileName>DynamicLibrary.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Dynamische freigegebene Bibliothek (Android)</Name>
+        <Description>Ein Projekt zum Erstellen einer dynamischen freigegebenen Bibliothek für die Android-Plattform.</Description>
+        <ProjectType>VC</ProjectType>
+        <TemplateID>Microsoft.MDD.VC.Android.Dll</TemplateID>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>SharedObject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>CPPPhoneDynamic.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project" Locale="1031">
+    <RelativePathOnDisk>VC\Cross Platform\Android\1031\GradleApplication</RelativePathOnDisk>
+    <TemplateFileName>GradleApplication.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Basisanwendung (Android, Gradle)</Name>
+        <Description>Eine Android-Anwendung mit einer Beispielaktivität, bei der auf dem Bildschirm "Hello World" angezeigt wird.</Description>
+        <TemplateID>Microsoft.MDD.VC.GradleApplication</TemplateID>
+        <ProjectType>VC</ProjectType>
+        <CreateInPlace>true</CreateInPlace>
+        <SortOrder>1100</SortOrder>
+        <DefaultName>Android</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>androidproj.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project" Locale="1031">
+    <RelativePathOnDisk>VC\Cross Platform\Android\1031\GradleLibrary</RelativePathOnDisk>
+    <TemplateFileName>GradleLibrary.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Basisbibliothek (Android, Gradle)</Name>
+        <Description>Eine Android-Bibliothek mit einer Beispielaktivität, die "Hello World" auf dem Bildschirm ausgibt.</Description>
+        <TemplateID>Microsoft.MDD.VC.GradleLibrary</TemplateID>
+        <ProjectType>VC</ProjectType>
+        <CreateInPlace>true</CreateInPlace>
+        <SortOrder>1100</SortOrder>
+        <DefaultName>Android</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>androidproj.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project" Locale="1031">
+    <RelativePathOnDisk>VC\Cross Platform\Android\1031\StaticLibrary</RelativePathOnDisk>
+    <TemplateFileName>staticlibrary.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Statische Bibliothek (Android)</Name>
+        <Description>Ein Projekt zum Erstellen einer statischen Bibliothek für die Android-Plattform.</Description>
+        <ProjectType>VC</ProjectType>
+        <TemplateID>Microsoft.MDD.VC.Android.StaticLibrary</TemplateID>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>StaticLibrary</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>CPPPhoneLibrary.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

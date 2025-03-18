@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Class Library (For U-SQL Application)</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLCSharpTemplate</TemplateId>
+    <Description>A project for creating a C# class library(.dll) that can run on U-SQL.</Description>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4547" />
+    <ProjectType>U-SQL CSharp Items</ProjectType>
+    <ProjectSubType>USQLCSharpProject</ProjectSubType>
+    <DefaultName>USQLCSharpProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="USQLCSharpProject.csproj" ReplaceParameters="true" TargetFileName="$projectname$.csproj">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">assemblyinfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,568 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics\ASAEmptyProject</RelativePathOnDisk>
+    <TemplateFileName>ASAEmptyProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Empty Azure Stream Analytics Application</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.EmptyApplicationTemplate</TemplateID>
+        <Description>An empty project for an Azure Stream Analytics application.</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAEmptyProject.png</Icon>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASAApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LanguageTag>querylanguage</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics\ASAProject</RelativePathOnDisk>
+    <TemplateFileName>ASAProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Azure Stream Analytics Application</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.ApplicationTemplate</TemplateID>
+        <Description>A project for creating an Azure Stream Analytics application.</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAProject.png</Icon>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASAApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LanguageTag>querylanguage</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics\ASAUDFProject</RelativePathOnDisk>
+    <TemplateFileName>ASAUDFProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Azure Stream Analytics UDF Project (.NET)</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.UDFTemplate</TemplateID>
+        <Description>A .NET Standard project for Azure Stream Analytics UDF.</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAUDFProject.png</Icon>
+        <SortOrder>21</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASAUDF</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>true</CreateInPlace>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics\ASACustomDeserializerProject</RelativePathOnDisk>
+    <TemplateFileName>ASACustomDeserializerProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Azure Stream Analytics Custom Deserializer Project (.NET)</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.CustomDeserializerTemplate</TemplateID>
+        <Description>A .NET Standard project for Azure Stream Analytics Custom Deserializer.</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASACustomDeserializerProject.png</Icon>
+        <SortOrder>21</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASADeserializer</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>true</CreateInPlace>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics Edge\ASAEdgeEmptyProject</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeEmptyProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Empty Azure Stream Analytics Edge Application</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.EmptyEdgeApplicationTemplate</TemplateID>
+        <Description>An empty project for an Azure Stream Analytics Edge application.</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeEmptyProject.png</Icon>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASAEdgeEmptyApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LanguageTag>querylanguage</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Stream Analytics Edge\ASAEdgeProject</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Azure Stream Analytics Edge Application</Name>
+        <TemplateID>Microsoft.Azure.StreamAnalytics.EdgeApplicationTemplate</TemplateID>
+        <Description>A project for creating Azure Stream Analytics Edge application.</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeProject.png</Icon>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ASAEdgeApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LanguageTag>querylanguage</LanguageTag>
+        <PlatformTag>azure</PlatformTag>
+        <ProjectTypeTag>cloud</ProjectTypeTag>
+        <ProjectTypeTag>iot</ProjectTypeTag>
+        <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>HIVE (HDInsight)\HiveProject</RelativePathOnDisk>
+    <TemplateFileName>HiveProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Hive Application</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.HiveApplicationTemplate</TemplateID>
+        <Description>A project for creating Hive application</Description>
+        <Icon>HiveProject.png</Icon>
+        <ProjectType>Hive Items</ProjectType>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>HiveApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>HIVE (HDInsight)\HiveSample</RelativePathOnDisk>
+    <TemplateFileName>HiveSampleProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Hive Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.HiveSampleApplicationTemplate</TemplateID>
+        <Description>Hive getting start sample</Description>
+        <Icon>HiveSampleProject.png</Icon>
+        <ProjectType>Hive Items</ProjectType>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>HiveSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Pig (HDInsight)\PigProject</RelativePathOnDisk>
+    <TemplateFileName>PigProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Pig Application</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.PigApplicationTemplate</TemplateID>
+        <Description>A project for creating Pig application</Description>
+        <Icon>PigProject.png</Icon>
+        <ProjectType>Pig Items</ProjectType>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>PigApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureDocumentDBLookupStormApplication</RelativePathOnDisk>
+    <TemplateFileName>DocumentDBReader.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm DocumentDB Reader Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.DocumentDBReaderSampleApplicationTemplate</TemplateID>
+        <Description>A storm project for azure documentdb reader, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>DocumentDBReader.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DocumentDBReaderSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureDocumentDBWriterStormApplication</RelativePathOnDisk>
+    <TemplateFileName>DocumentDBWriter.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm DocumentDB Writer Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.DocumentDBWriterSampleApplicationTemplate</TemplateID>
+        <Description>A storm project for azure documentdb writer, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>DocumentDBWriter.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DocumentDBWriterSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureEventHubsReaderStormApplication</RelativePathOnDisk>
+    <TemplateFileName>AzureEventHubsReader.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm EventHub Reader Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.EventHubReaderSampleApplicationTemplate</TemplateID>
+        <Description>A sample storm project for eventhub reader, it is available for hdinsight cluster which version &gt;= 3.2 </Description>
+        <Icon>AzureEventHubsReader.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>AzureEventHubsReader</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureEventHubsWriterStormApplication</RelativePathOnDisk>
+    <TemplateFileName>AzureEventHubsWriter.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm EventHub Writer Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.EventHubWriterSampleApplicationTemplate</TemplateID>
+        <Description>A sample storm project for eventhub writer, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>AzureEventHubsWriter.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>AzureEventHubsWriter</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureHDInsightHBaseLookupStormApplication</RelativePathOnDisk>
+    <TemplateFileName>AzureHDInsightHBaseReader.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm HBase Reader Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.HBaseReaderSampleApplicationTemplate</TemplateID>
+        <Description>A sample storm project for hbase reader, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>AzureHDInsightHBaseReader.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>AzureHDInsightHBaseReader</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\AzureHDInsightHBaseWriterStormApplication</RelativePathOnDisk>
+    <TemplateFileName>AzureHDInsightHBaseWriter.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm HBase Writer Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.HBaseWriterSampleApplicationTemplate</TemplateID>
+        <Description>A sample storm project for hbase writer, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>AzureHDInsightHBaseWriter.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>AzureHDInsightHBaseWriter</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\HybridStormSample</RelativePathOnDisk>
+    <TemplateFileName>HybridStormSample.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Hybrid Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.HybridSampleApplicationTemplate</TemplateID>
+        <Description>A sample project for hybrid storm application, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>StormSample.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>StormHybridSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\SqlAzureWriterStormApplication</RelativePathOnDisk>
+    <TemplateFileName>SqlAzureWriter.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Azure SQL Writer Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.Storm.SqlAzureWriterStormApplicationTemplate</TemplateID>
+        <Description>A sample storm project for azure sql writer, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>SqlAzureWriter.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>SqlAzureWriter</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\StormProject</RelativePathOnDisk>
+    <TemplateFileName>StormProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Application</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.StormApplicationTemplate</TemplateID>
+        <Description>A project for creating Storm application, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>StormProject.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>StormApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Storm (HDInsight)\StormSample</RelativePathOnDisk>
+    <TemplateFileName>StormSample.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Sample</Name>
+        <TemplateID>Microsoft.Azure.HDInsight.StormSampleApplicationTemplate</TemplateID>
+        <Description>A sample project for storm application, it is available for hdinsight cluster which version &gt;= 3.2</Description>
+        <Icon>StormSample.png</Icon>
+        <ProjectType>Storm Items</ProjectType>
+        <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>StormSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>false</CreateInPlace>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\DatabaseProject</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Database Project</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLDatabaseTemplate</TemplateId>
+        <Description>A project for creating a U-SQL database deployment package</Description>
+        <Icon>DatabaseProject.png</Icon>
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DatabaseProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USQLCSharpProject</RelativePathOnDisk>
+    <TemplateFileName>USQLCSharpProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Class Library (For U-SQL Application)</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLCSharpTemplate</TemplateId>
+        <Description>A project for creating a C# class library(.dll) that can run on U-SQL.</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4547" />
+        <ProjectType>U-SQL CSharp Items</ProjectType>
+        <ProjectSubType>USQLCSharpProject</ProjectSubType>
+        <DefaultName>USQLCSharpProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USqlCSharpUdoUnitTestProject</RelativePathOnDisk>
+    <TemplateFileName>USqlCSharpUdoUnitTestProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL C# UDO Unit Test Project</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLCSharpUDOUnitTestTemplate</TemplateId>
+        <Description>A project that contains unit tests for U-SQL C# UDO.</Description>
+        <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531" />
+        <ProjectType>U-SQL C# UDO Unit Test Items</ProjectType>
+        <ProjectSubType>USqlCSharpUdoUnitTestProject</ProjectSubType>
+        <DefaultName>USqlCSharpUdoUnitTestProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateNewFolder>true</CreateNewFolder>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="ProjectGroup">
+    <RelativePathOnDisk>U-SQL\USqlCSharpUdoUnitTestSampleProject</RelativePathOnDisk>
+    <TemplateFileName>USqlCSharpUdoUnitTestSampleProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL C# UDO Unit Test Sample Project</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLCSharpUDOUnitTestSampleTemplate</TemplateId>
+        <Description>A project that contains unit tests and UDO samples for U-SQL C# UDO</Description>
+        <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531" />
+        <ProjectType>U-SQL C# UDO Unit Test Items</ProjectType>
+        <ProjectSubType>USqlCSharpUdoUnitTestProject</ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>USqlCSharpUdoUnitTestProjectSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USqlCSharpUdoUnitTestSampleProject\USqlCSharpUdoSample</RelativePathOnDisk>
+    <TemplateFileName>USqlCSharpUdoSample.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Class Library (For U-SQL Application)</Name>
+        <Description>A project for creating a C# class library(.dll) that can run on U-SQL.</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4547" />
+        <ProjectType>U-SQL CSharp Items</ProjectType>
+        <ProjectSubType>USQLCSharpProject</ProjectSubType>
+        <DefaultName>USQLCSharpProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <Hidden>true</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USqlCSharpUdoUnitTestSampleProject\USqlCSharpUdoUnitTestSample</RelativePathOnDisk>
+    <TemplateFileName>USqlCSharpUdoUnitTestSample.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL C# UDO Unit Test Project</Name>
+        <Description>A project that contains unit tests for U-SQL C# UDO.</Description>
+        <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531" />
+        <ProjectType>U-SQL C# UDO Unit Test Items</ProjectType>
+        <ProjectSubType>USqlCSharpUdoUnitTestProject</ProjectSubType>
+        <DefaultName>USqlCSharpUdoUnitTestProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateNewFolder>true</CreateNewFolder>
+        <Hidden>true</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USQLProject</RelativePathOnDisk>
+    <TemplateFileName>USQLProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Project</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLApplicationTemplate</TemplateId>
+        <Description>A project for creating U-SQL application</Description>
+        <Icon>NewProject.png</Icon>
+        <ProjectType>U-SQL Items</ProjectType>
+        <SortOrder>20</SortOrder>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>USQLApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USQLSampleProject</RelativePathOnDisk>
+    <TemplateFileName>USQLSampleProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Sample Application</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLSampleApplicationTemplate</TemplateId>
+        <Description>A project for creating a U-SQL Sample Project.</Description>
+        <ProjectType>U-SQL Items</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>USQLSampleApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.png</Icon>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>U-SQL\USqlScriptUnitTestProject</RelativePathOnDisk>
+    <TemplateFileName>USqlScriptUnitTestProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Script Unit Test Project</Name>
+        <TemplateId>Microsoft.Azure.DataLake.USQLUnitTestTemplate</TemplateId>
+        <Description>A project that contains unit tests for U-SQL scripts.</Description>
+        <Icon>NewProject.png</Icon>
+        <ProjectType>U-SQL Script Unit Test Items</ProjectType>
+        <TemplateID>USqlScriptUnitTest</TemplateID>
+        <DefaultName>USqlScriptUnitTestProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateNewFolder>true</CreateNewFolder>
+        <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

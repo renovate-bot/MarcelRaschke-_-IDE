@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure Data Lake 和流分析工具</LocalizedName>
+  <LocalizedDescription xml:space="preserve">用于 Azure Data Lake 和流分析应用程序开发的集成开发环境。</LocalizedDescription>
+  <License>\License\Azure Data Lake and Stream Analytics Tools for VS_zh-Hans.rtf</License>
+  <MoreInfoUrl>https://docs.microsoft.com/zh-Hans/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started</MoreInfoUrl>
+</VsixLanguagePack>

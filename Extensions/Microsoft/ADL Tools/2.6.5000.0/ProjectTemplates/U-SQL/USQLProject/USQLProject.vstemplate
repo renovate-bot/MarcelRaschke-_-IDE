@@ -1,0 +1,21 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL Project</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLApplicationTemplate</TemplateId>
+    <Description>A project for creating U-SQL application</Description>
+    <Icon>NewProject.png</Icon>
+    <ProjectType>U-SQL Items</ProjectType>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>USQLApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="USQLProject.usqlproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="Script.usql">Script.usql</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false" TargetFileName="Script.usql.cs">Script.usql.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

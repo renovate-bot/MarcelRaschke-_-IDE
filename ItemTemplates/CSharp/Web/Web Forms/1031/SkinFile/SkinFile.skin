@@ -1,0 +1,15 @@
+﻿<%--
+Standarddesignvorlage. Die folgenden Designs werden nur als Beispiele bereitgestellt.
+
+1. Benanntes Steuerelementdesign. Die SkinId muss eindeutig definiert sein, weil 
+   in einem Design doppelte SkinIds pro Steuerelementtyp nicht zulässig sind.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Standarddesign. Die SkinId ist nicht definiert. Im gleichen Design 
+   ist nur ein Standardsteuerelementdesign pro Steuerelementtyp zulässig.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>

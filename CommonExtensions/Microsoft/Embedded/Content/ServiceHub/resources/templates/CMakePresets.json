@@ -1,0 +1,61 @@
+<%
+const debug = it.cmake.knownConfigurationTypes.includes("debug");
+const release = it.cmake.knownConfigurationTypes.includes("release");
+%>
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}/build",
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/build/${presetName}/install",
+        "CMAKE_TOOLCHAIN_FILE": {
+          "type": "FILEPATH",
+          "value": "${sourceDir}/cmake/gcc-arm-none-eabi.cmake"
+        }
+      },
+      "architecture": {
+        "value": "unspecified",
+        "strategy": "external"
+      },
+      "vendor": {
+        "microsoft.com/VisualStudioSettings/CMake/1.0": {
+          "intelliSenseMode": "linux-gcc-arm"
+        }
+      }
+    }<% if (debug) { %>,
+    {
+      "name": "debug",
+      "inherits": "default",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "PRESET_NAME": "debug"
+      }
+    }<% } if (release) { %>,
+    {
+      "name": "release",
+      "inherits": "default",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "PRESET_NAME": "release"
+      }
+    }
+<% } %>
+  ],
+  "buildPresets": [
+<% if (debug) { %>
+    {
+      "name": "debug",
+      "configurePreset": "debug"
+    }<% } if (debug && release) { %>,
+<% } if (release) { %>
+    {
+      "name": "release",
+      "configurePreset": "release"
+    }
+<% } %>
+  ]
+}

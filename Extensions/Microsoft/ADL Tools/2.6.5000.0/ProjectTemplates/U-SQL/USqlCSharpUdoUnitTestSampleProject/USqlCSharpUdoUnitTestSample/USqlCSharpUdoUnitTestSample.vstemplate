@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL C# UDO Unit Test Project</Name>
+    <Description>A project that contains unit tests for U-SQL C# UDO.</Description>
+    <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531" />
+    <ProjectType>U-SQL C# UDO Unit Test Items</ProjectType>
+    <ProjectSubType>USqlCSharpUdoUnitTestProject</ProjectSubType>
+    <DefaultName>USqlCSharpUdoUnitTestProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateNewFolder>true</CreateNewFolder>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="USqlCSharpUdoUnitTestSample.csproj" ReplaceParameters="true" TargetFileName="$projectname$.csproj">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem TargetFileName="Baseline\output_baseline.txt">output_baseline.txt</ProjectItem>
+      <ProjectItem TargetFileName="Input\processor.txt">processor.txt</ProjectItem>
+      <ProjectItem TargetFileName="Input\searchlog.txt">searchlog.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">TestCombiner.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">TestExtractor.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">TestOutputter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">TestProcessor.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">TestReducer.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

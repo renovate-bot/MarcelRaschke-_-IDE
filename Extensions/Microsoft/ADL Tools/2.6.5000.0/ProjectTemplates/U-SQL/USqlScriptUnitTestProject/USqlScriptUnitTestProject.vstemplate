@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL Script Unit Test Project</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLUnitTestTemplate</TemplateId>
+    <Description>A project that contains unit tests for U-SQL scripts.</Description>
+    <Icon>NewProject.png</Icon>
+    <ProjectType>U-SQL Script Unit Test Items</ProjectType>
+    <TemplateID>USqlScriptUnitTest</TemplateID>
+    <DefaultName>USqlScriptUnitTestProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateNewFolder>true</CreateNewFolder>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="USqlScriptUnitTestProject.usqlutproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false">USqlScriptUnitTest1.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

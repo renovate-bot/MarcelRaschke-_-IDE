@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright, Microsoft Corporation, All rights reserved.-->
+<ProjectSchemaDefinitions xmlns="http://schemas.microsoft.com/build/2009/properties" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <Rule Name="ImageContentTask" PageTemplate="tool" DisplayName="Bildinhaltspipeline" SwitchPrefix="" Order="300">
+
+    <Rule.Categories>
+      <Category Name="General" DisplayName="Allgemein"/>
+    </Rule.Categories>
+
+    <Rule.DataSource>
+      <DataSource Persistence="ProjectFile" ItemType="ImageContentTask" Label="" HasConfigurationCondition="true"/>
+    </Rule.DataSource>
+
+    <EnumProperty Name="Compress" DisplayName="Komprimieren" Description="Gibt den für Bilder verwendeten Komprimierungstyp an. Die Komprimierung gilt nur für Bilder. (/compress:[type])" Category="General" F1Keyword="VC.Project.ImageContentTask.Compress">
+      <EnumValue Name="None" Switch="" DisplayName="Keine Komprimierung" Description="Keine Komprimierung"/>
+      <EnumValue Name="BC1_UNORM" Switch="/compress:BC1_UNORM" DisplayName="BC1_UNORM Komprimierung" Description="BC1_UNORM Komprimierung"/>
+      <EnumValue Name="BC1_UNORM_SRGB" Switch="/compress:BC1_UNORM_SRGB" DisplayName="BC1_UNORM_SRGB Komprimierung" Description="BC1_UNORM_SRGB Komprimierung"/>
+      <EnumValue Name="BC2_UNORM" Switch="/compress:BC2_UNORM" DisplayName="BC2_UNORM Komprimierung" Description="BC2_UNORM Komprimierung"/>
+      <EnumValue Name="BC2_UNORM_SRGB" Switch="/compress:BC2_UNORM_SRGB" DisplayName="BC2_UNORM_SRGB Komprimierung" Description="BC2_UNORM_SRGB Komprimierung"/>
+      <EnumValue Name="BC3_UNORM" Switch="/compress:BC3_UNORM" DisplayName="BC3_UNORM Komprimierung" Description="BC3_UNORM Komprimierung"/>
+      <EnumValue Name="BC3_UNORM_SRGB" Switch="/compress:BC3_UNORM_SRGB" DisplayName="BC3_UNORM_SRGB Komprimierung" Description="BC3_UNORM_SRGB Komprimierung"/>
+      <EnumValue Name="BC4_UNORM" Switch="/compress:BC4_UNORM" DisplayName="BC4_UNORM Komprimierung" Description="BC4_UNORM Komprimierung"/>
+      <EnumValue Name="BC4_SNORM" Switch="/compress:BC4_SNORM" DisplayName="BC4_SNORM Komprimierung" Description="BC4_SNORM Komprimierung"/>
+      <EnumValue Name="BC5_UNORM" Switch="/compress:BC5_UNORM" DisplayName="BC5_UNORM Komprimierung" Description="BC5_UNORM Komprimierung"/>
+      <EnumValue Name="BC5_SNORM" Switch="/compress:BC5_SNORM" DisplayName="BC5_SNORM Komprimierung" Description="BC5_SNORM Komprimierung"/>
+      <EnumValue Name="BC6H_UF16" Switch="/compress:BC6H_UF16" DisplayName="BC6H_UF16 Komprimierung" Description="BC6H_UF16 Komprimierung"/>
+      <EnumValue Name="BC6H_SF16" Switch="/compress:BC6H_SF16" DisplayName="BC6H_SF16 Komprimierung" Description="BC6H_SF16 Komprimierung"/>
+      <EnumValue Name="BC7_UNORM" Switch="/compress:BC7_UNORM" DisplayName="BC7_UNORM Komprimierung" Description="BC7_UNORM Komprimierung"/>
+      <EnumValue Name="BC7_UNORM_SRGB" Switch="/compress:BC7_UNORM_SRGB" DisplayName="BC7_UNORM_SRGB Komprimierung" Description="BC7_UNORM_SRGB Komprimierung"/>
+    </EnumProperty>
+
+    <BoolProperty Name="GeneratePremultipliedAlpha" DisplayName="In ein vormultipliziertes Alphaformat konvertieren" Description="Gibt an, ob das Bild in ein vormultipliziertes Alphaformat konvertiert werden soll. (/generatepremultipliedalpha)" Category="General" Switch="/generatepremultipliedalpha" F1Keyword="VC.Project.ImageContentTask.GeneratePremultipliedAlpha">
+    </BoolProperty>
+
+    <BoolProperty Name="GenerateMips" DisplayName="MIPS generieren" Description="Gibt an, ob eine vollständige Mipmapkette für Bilder erstellt werden soll. Das Mipmapping gilt nur für Bilder. (/generatemips)" Category="General" Switch="/generatemips" F1Keyword="VC.Project.ImageContentTask.GenerateMips">
+    </BoolProperty>
+
+    <StringProperty Subtype="file" Name="ContentOutput" DisplayName="Inhaltsausgabe" Description="Die Ausgabedatei für den Inhalt." Category="General" Switch="" F1Keyword="VC.Project.ImageContentTask.ContentOutput">
+    </StringProperty>
+
+  </Rule>
+
+  <ItemType Name="ImageContentTask" DisplayName="Bildinhaltspipeline"/>
+  <ContentType Name="ImageContentTask" DisplayName="Bildinhaltspipeline" ItemType="ImageContentTask"/>
+   
+  
+
+
+
+  
+</ProjectSchemaDefinitions>

@@ -1,0 +1,14 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>JavaScript Function</Name>
+    <Description>An empty Azure Stream Analytics JS Function</Description>
+    <ProjectType>Stream Analytics Items</ProjectType>
+    <Icon>ASAFunction.png</Icon>
+    <DefaultName>JSFunction.js</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.js" OpenInEditor="true" BuildAction="Configure">JSFunction.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.js.json" OpenInEditor="false" BuildAction="Configure">JSFunction.js.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

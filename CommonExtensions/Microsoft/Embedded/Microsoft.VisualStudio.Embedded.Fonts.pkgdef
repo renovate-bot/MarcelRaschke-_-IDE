@@ -1,0 +1,18 @@
+﻿[$RootKey$\Packages\{ccfc100e-c8fd-4f9d-abe1-abb3f2240048}]
+@="EmbeddedPackage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VisualStudio.Embedded.EmbeddedPackage"
+"CodeBase"="$PackageFolder$\Microsoft.VisualStudio.Embedded.dll"
+"AllowsBackgroundLoad"=dword:00000001
+
+[$RootKey$\Services\{750efadc-1cdf-4a60-a64f-9e604e66fadd}]
+"Name"="Text Editor Fonts and Colors Defaults Provider"
+@="{ccfc100e-c8fd-4f9d-abe1-abb3f2240048}"
+"IsAsyncQueryable"=dword:00000001
+
+[$RootKey$\FontAndColors\Serial Monitor]
+"Category"="{a480cbf8-d7c0-4808-9971-5b0dfdaf2be2}"
+"Package"="{750efadc-1cdf-4a60-a64f-9e604e66fadd}"
+"SortElements"=dword:00000001
+"CacheMOUItems"=dword:00000001
+"CategoryVersion"=dword:00000002

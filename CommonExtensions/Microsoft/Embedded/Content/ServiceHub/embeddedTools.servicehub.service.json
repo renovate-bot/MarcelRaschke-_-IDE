@@ -1,0 +1,7 @@
+﻿{
+  "host": "node.x86",
+  "entryPoint": {
+    "scriptPath": "./main.js",
+    "constructorFunction": "serviceHubEntryPoint"
+  }
+}

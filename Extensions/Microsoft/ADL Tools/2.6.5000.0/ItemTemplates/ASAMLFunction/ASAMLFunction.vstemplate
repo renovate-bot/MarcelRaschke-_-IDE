@@ -1,0 +1,13 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Machine Learning Function</Name>
+    <Description>An empty Azure Stream Analytics Machine Learning Function Configure</Description>
+    <ProjectType>Stream Analytics Items</ProjectType>
+    <Icon>ASAFunction.png</Icon>
+    <DefaultName>MLFunction.json</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.json" OpenInEditor="false" BuildAction="Configure">MLFunction.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

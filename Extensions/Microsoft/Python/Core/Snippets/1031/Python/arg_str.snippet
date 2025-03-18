@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>argparse-Zeichenfolgenargument</Title>
+      <Shortcut>arg_str</Shortcut>
+      <Description>Codeschnipsel für ein Zeichenfolgenargument für einen argparse-Parser.</Description>
+      <Author>Microsoft Corporation</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports/>
+      <Declarations>
+        <Literal>
+          <ID>shortname</ID>
+          <ToolTip>Kurzer Argumentname, in der Regel nur ein Buchstabe.</ToolTip>
+          <Default>a</Default>
+        </Literal>
+        <Literal>
+          <ID>longname</ID>
+          <ToolTip>Langer Argumentname, in der Regel ein oder zwei Wörter, die durch einen Bindestrich getrennt sind.</ToolTip>
+          <Default>arg-name</Default>
+        </Literal>
+        <Literal>
+          <ID>var</ID>
+          <ToolTip>Argumentvariablenname.</ToolTip>
+          <Default>ARG</Default>
+        </Literal>
+        <Literal>
+          <ID>help</ID>
+          <ToolTip>Beschreibung des Arguments, die bei Aufruf mit "--help/-h" angezeigt wird.</ToolTip>
+          <Default>Argument help.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[parser.add_argument("-$shortname$", "--$longname$", type=str,
+                    metavar="$var$", help="$help$")
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

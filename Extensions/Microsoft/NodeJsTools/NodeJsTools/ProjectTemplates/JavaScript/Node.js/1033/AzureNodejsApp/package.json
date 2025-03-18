@@ -1,0 +1,19 @@
+{
+  "name": "$npmsafeprojectname$",
+  "version": "0.0.0",
+  "description": "$projectname$",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

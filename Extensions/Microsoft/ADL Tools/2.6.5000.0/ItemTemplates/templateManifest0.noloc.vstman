@@ -1,0 +1,556 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAInput</RelativePathOnDisk>
+    <TemplateFileName>ASAInput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Input</Name>
+        <Description>An empty Azure Stream Analytics Input</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAInput.png</Icon>
+        <DefaultName>Input.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAJobConfigure</RelativePathOnDisk>
+    <TemplateFileName>ASAJobConfigure.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Job Configure</Name>
+        <Description>A Default Azure Stream Analytics Job Configure</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>JobConfigure.png</Icon>
+        <DefaultName>JobConfig.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAJSFunction</RelativePathOnDisk>
+    <TemplateFileName>ASAJSFunction.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>JavaScript Function</Name>
+        <Description>An empty Azure Stream Analytics JS Function</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAFunction.png</Icon>
+        <DefaultName>JSFunction.js</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAMLFunction</RelativePathOnDisk>
+    <TemplateFileName>ASAMLFunction.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Machine Learning Function</Name>
+        <Description>An empty Azure Stream Analytics Machine Learning Function Configure</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAFunction.png</Icon>
+        <DefaultName>MLFunction.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAMockInput</RelativePathOnDisk>
+    <TemplateFileName>ASAMockInput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Local Input</Name>
+        <Description>An empty Azure Stream Analytics local input</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAMockInput.png</Icon>
+        <DefaultName>LocalInput.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAOutput</RelativePathOnDisk>
+    <TemplateFileName>ASAOutput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Output</Name>
+        <Description>An empty Azure Stream Analytics Output</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAOutput.png</Icon>
+        <DefaultName>Output.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAScript</RelativePathOnDisk>
+    <TemplateFileName>ASAScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Script</Name>
+        <Description>An empty Azure Stream Analytics script</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASAScript.png</Icon>
+        <DefaultName>Script.asaql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASACSharpFunction</RelativePathOnDisk>
+    <TemplateFileName>ASACSharpFunction.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>C# Function</Name>
+        <Description>An empty Azure Stream Analytics C# Function</Description>
+        <ProjectType>Stream Analytics Items</ProjectType>
+        <Icon>ASACSharpFunction.png</Icon>
+        <DefaultName>CSharpFunction.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeInput</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeInput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Input</Name>
+        <Description>An empty Azure Stream Analytics Edge Input</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeInput.png</Icon>
+        <DefaultName>Input.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeJobConfigure</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeJobConfigure.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Job Configure</Name>
+        <Description>A Default Azure Stream Analytics Edge Job Configure</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>EdgeJobConfigure.png</Icon>
+        <DefaultName>JobConfig.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeLocalInput</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeLocalInput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Local Input</Name>
+        <Description>An empty Azure Stream Analytics Edge local input</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeLocalInput.png</Icon>
+        <DefaultName>LocalInput.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeOutput</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeOutput.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Output</Name>
+        <Description>An empty Azure Stream Analytics Edge Output</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeOutput.png</Icon>
+        <DefaultName>Output.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeScript</RelativePathOnDisk>
+    <TemplateFileName>ASAScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Script</Name>
+        <Description>An empty Azure Stream Analytics Edge script</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAScript.png</Icon>
+        <DefaultName>Script.asaql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>ASAEdgeCSharpFunction</RelativePathOnDisk>
+    <TemplateFileName>ASAEdgeCSharpFunction.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>C# Function</Name>
+        <Description>An empty Azure Stream Analytics Edge C# Function</Description>
+        <ProjectType>Stream Analytics Edge Items</ProjectType>
+        <Icon>ASAEdgeCSharpFunction.png</Icon>
+        <DefaultName>CSharpFunction.json</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Schema</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Schema.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Schema Script</Name>
+        <Description>an empty schema script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Schema.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Table</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Table.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Table Script</Name>
+        <Description>an empty table script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Table.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Assembly</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Assembly.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Assembly Script</Name>
+        <Description>an empty assembly script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Assembly.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.DataSource</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.DataSource.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Data Source Script</Name>
+        <Description>an empty data source script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>DataSource.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.ExternalTable</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.ExternalTable.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>External Table Script</Name>
+        <Description>an empty table script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>ExternalTable.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Index</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Index.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Table Index Script</Name>
+        <Description>an empty table index script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Index.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Package</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Package.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Package Script</Name>
+        <Description>an empty package script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Package.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Partition</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Partition.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Partition Script</Name>
+        <Description>an empty partition script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Partition.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Procedure</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Procedure.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Procedure Script</Name>
+        <Description>an empty procedure script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Procedure.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.Statistics</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.Statistics.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Statistics Script</Name>
+        <Description>an empty statistics script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>Statistics.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.TableType</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.TableType.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Table Type Script</Name>
+        <Description>an empty table type script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>TableType.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.TableValuedFunction</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.TableValuedFunction.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Table-Valued Function Script</Name>
+        <Description>an empty table-valued function script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>TableValuedFunction.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>DatabaseProject.View</RelativePathOnDisk>
+    <TemplateFileName>DatabaseProject.View.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>View Script</Name>
+        <Description>an empty view script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Database Items</ProjectType>
+        <TemplateID>USQLDatabase</TemplateID>
+        <DefaultName>View.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>HiveScript</RelativePathOnDisk>
+    <TemplateFileName>HiveScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Hive Script</Name>
+        <Description>An empty Hive script</Description>
+        <Icon>HiveScript.png</Icon>
+        <ProjectType>Hive Items</ProjectType>
+        <DefaultName>Script.hql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>PigScript</RelativePathOnDisk>
+    <TemplateFileName>PigScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Pig Script</Name>
+        <Description>An empty Pig script</Description>
+        <Icon>PigScript.png</Icon>
+        <ProjectType>Pig Items</ProjectType>
+        <DefaultName>Script.pig</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>StormBatchBolt</RelativePathOnDisk>
+    <TemplateFileName>StormBatchBolt.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Batch Bolt</Name>
+        <Description>An batch bolt file for storm topology</Description>
+        <Icon>StormBatchBolt.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>BatchBolt.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>StormBolt</RelativePathOnDisk>
+    <TemplateFileName>StormBolt.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Bolt</Name>
+        <Description>An bolt file for storm topology</Description>
+        <Icon>StormBolt.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>Bolt.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>StormSpout</RelativePathOnDisk>
+    <TemplateFileName>StormSpout.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm Spout</Name>
+        <Description>An spout file for storm topology</Description>
+        <Icon>StormSpout.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>Spout.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>StormTxSpout</RelativePathOnDisk>
+    <TemplateFileName>StormTxSpout.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Storm TxSpout</Name>
+        <Description>An tx spout file for storm topology</Description>
+        <Icon>StormTxSpout.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>TxSpout.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>TextFile</RelativePathOnDisk>
+    <TemplateFileName>TextFile.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Text File</Name>
+        <Description>An empty text file</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4536" />
+        <ProjectType>SCOPE Items</ProjectType>
+        <DefaultName>TextFile.txt</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>USQLCSharp</RelativePathOnDisk>
+    <TemplateFileName>USQLCSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Class for U-SQL</Name>
+        <Description>Creates a new class for your U-SQL project.</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>91</SortOrder>
+        <DefaultName>Class.cs</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>USQLScript</RelativePathOnDisk>
+    <TemplateFileName>USQLScript.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Script</Name>
+        <Description>An empty U-SQL Script</Description>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4538" />
+        <ProjectType>U-SQL Items</ProjectType>
+        <DefaultName>Script.usql</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>Test\USqlCSharpUdoUnitTest</RelativePathOnDisk>
+    <TemplateFileName>USqlCSharpUdoUnitTest.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL C# UDO Unit Test</Name>
+        <Description>An empty unit test for U-SQL C# UDO</Description>
+        <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="216" />
+        <ProjectType>CSharp</ProjectType>
+        <DefaultName>UnitTest.cs</DefaultName>
+        <TemplateGroupID>TestProject-V1</TemplateGroupID>
+        <TemplateID>TestProject-V1-USqlCSharpUdoUnitTest</TemplateID>
+        <ShowByDefault>false</ShowByDefault>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>Test\USqlScriptUnitTest</RelativePathOnDisk>
+    <TemplateFileName>USqlScriptUnitTest.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>U-SQL Script Unit Test</Name>
+        <Description>An empty unit test for U-SQL script</Description>
+        <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="216" />
+        <ProjectType>U-SQL Script Unit Test Items</ProjectType>
+        <TemplateID>USqlScriptUnitTest</TemplateID>
+        <DefaultName>USqlScriptUnitTest.cs</DefaultName>
+        <Hidden>false</Hidden>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

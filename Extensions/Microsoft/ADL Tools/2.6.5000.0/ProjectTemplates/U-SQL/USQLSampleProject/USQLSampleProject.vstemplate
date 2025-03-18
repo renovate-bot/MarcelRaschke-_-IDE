@@ -1,0 +1,77 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>U-SQL Sample Application</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLSampleApplicationTemplate</TemplateId>
+    <Description>A project for creating a U-SQL Sample Project.</Description>
+    <ProjectType>U-SQL Items</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>USQLSampleApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="USQLSampleApplication.usqlproj" File="USQLSampleApplication.usqlproj" ReplaceParameters="true">
+        <!-- read me file -->
+        <ProjectItem ReplaceParameters="false" OpenInWebBrowser="true" TargetFileName="Readme.htm">Readme.htm</ProjectItem>
+
+        <!-- sample data file -->
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestData\Samples\Data\AmbulanceData\Drivers.txt">Drivers.txt</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\DriverShiftTrips.csv">DriverShiftTrips.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle1_09142014.csv">vehicle1_09142014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle1_09152014.csv">vehicle1_09152014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle1_09162014.csv">vehicle1_09162014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle1_09172014.csv">vehicle1_09172014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle2_09142014.csv">vehicle2_09142014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle2_09152014.csv">vehicle2_09152014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle2_09162014.csv">vehicle2_09162014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle2_09172014.csv">vehicle2_09172014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle3_09142014.csv">vehicle3_09142014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle3_09152014.csv">vehicle3_09152014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle3_09162014.csv">vehicle3_09162014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle3_09172014.csv">vehicle3_09172014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle4_09142014.csv">vehicle4_09142014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle4_09152014.csv">vehicle4_09152014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle4_09162014.csv">vehicle4_09162014.csv</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\AmbulanceData\vehicle4_09172014.csv">vehicle4_09172014.csv</ProjectItem>            
+        <ProjectItem ReplaceParameters="false" TargetFileName="TestData\Samples\Data\SearchLog.tsv">SearchLog.tsv</ProjectItem>
+        
+        <!-- source code -->
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-1-1-QueryDriversOnADL.usql">Ambulance-1-1-QueryDriversOnADL.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-1-1-QueryDriversOnADL.usql.cs">Ambulance-1-1-QueryDriversOnADL.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-1-CreateObjects.usql">Ambulance-2-1-CreateObjects.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-1-CreateObjects.usql.cs">Ambulance-2-1-CreateObjects.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-2-LoadingTables.usql">Ambulance-2-2-LoadingTables.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-2-LoadingTables.usql.cs">Ambulance-2-2-LoadingTables.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-3-CopyTable.usql">Ambulance-2-3-CopyTable.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-3-CopyTable.usql.cs">Ambulance-2-3-CopyTable.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-4-InsertConstantValues.usql">Ambulance-2-4-InsertConstantValues.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-4-InsertConstantValues.usql.cs">Ambulance-2-4-InsertConstantValues.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-5-IncrementalInsert.usql">Ambulance-2-5-IncrementalInsert.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-5-IncrementalInsert.usql.cs">Ambulance-2-5-IncrementalInsert.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-2-6-ShowResults.usql">Ambulance-2-6-ShowResults.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-2-6-ShowResults.usql.cs">Ambulance-2-6-ShowResults.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-3-1-FileSets.usql">Ambulance-3-1-FileSets.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-3-1-FileSets.usql.cs">Ambulance-3-1-FileSets.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-3-2-CreatePartitionedTable.usql">Ambulance-3-2-CreatePartitionedTable.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-3-2-CreatePartitionedTable.usql.cs">Ambulance-3-2-CreatePartitionedTable.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AmbulanceDataSet\Ambulance-3-3-PartitionTable-Query.usql">Ambulance-3-3-PartitionTable-Query.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AmbulanceDataSet\Ambulance-3-3-PartitionTable-Query.usql.cs">Ambulance-3-3-PartitionTable-Query.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SearchLog\SearchLog-1-First_U-SQL_Script.usql">SearchLog-1-First_U-SQL_Script.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SearchLog\SearchLog-1-First_U-SQL_Script.usql.cs">SearchLog-1-First_U-SQL_Script.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SearchLog\SearchLog-2-TransformingRowset.usql">SearchLog-2-TransformingRowset.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SearchLog\SearchLog-2-TransformingRowset.usql.cs">SearchLog-2-TransformingRowset.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SearchLog\SearchLog-3-OrderingGroupingAggregation.usql">SearchLog-3-OrderingGroupingAggregation.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SearchLog\SearchLog-3-OrderingGroupingAggregation.usql.cs">SearchLog-3-OrderingGroupingAggregation.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SearchLog\SearchLog-4-CreatingTable.usql">SearchLog-4-CreatingTable.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SearchLog\SearchLog-4-CreatingTable.usql.cs">SearchLog-4-CreatingTable.usql.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SearchLog\SearchLog-5-QueryFromTable.usql">SearchLog-5-QueryFromTable.usql</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SearchLog\SearchLog-5-QueryFromTable.usql.cs">SearchLog-5-QueryFromTable.usql.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Klasse</Title>
+      <Shortcut>class</Shortcut>
+      <Description>Codeschnipsel für eine Klassendefinition</Description>
+      <Author>Microsoft Corporation</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Der Name der Klasse</ToolTip>
+          <Default>ClassName</Default>
+        </Literal>
+        <Literal>
+          <ID>bases</ID>
+          <ToolTip>Die Liste der Basisklassen für die Klasse</ToolTip>
+          <Default>(object)</Default>
+        </Literal>      
+      </Declarations>
+      <Code Language="Python"><![CDATA[class $name$$bases$:
+    $selected$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

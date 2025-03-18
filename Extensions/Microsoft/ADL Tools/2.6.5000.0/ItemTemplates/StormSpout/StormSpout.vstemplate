@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Storm Spout</Name>
+    <Description>An spout file for storm topology</Description>
+    <Icon>StormSpout.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>Spout.cs</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs" OpenInEditor="true">StormSpout.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

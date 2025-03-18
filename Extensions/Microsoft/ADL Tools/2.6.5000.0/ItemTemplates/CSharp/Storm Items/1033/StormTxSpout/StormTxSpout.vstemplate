@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Storm TxSpout</Name>
+    <Description>An tx spout file for storm topology</Description>
+    <Icon>StormTxSpout.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>TxSpout.cs</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs" OpenInEditor="true">StormTxSpout.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,39 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Python\Web\DjangoProject</RelativePathOnDisk>
+    <TemplateFileName>DjangoApp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="5000" />
+        <Description Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="5001" />
+        <Icon Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="410" />
+        <ProjectType>Python</ProjectType>
+        <TemplateID>Microsoft.Python.Web.Django.Blank</TemplateID>
+        <SortOrder>71</SortOrder>
+        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DjangoWebProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Python\Web\StarterDjangoProject</RelativePathOnDisk>
+    <TemplateFileName>StarterDjangoProject.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="5004" />
+        <Description Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="5005" />
+        <Icon Package="{a8637c34-aa55-46e2-973c-9c3e09afc17b}" ID="410" />
+        <ProjectType>Python</ProjectType>
+        <TemplateID>Microsoft.Python.Web.Django.Starter</TemplateID>
+        <SortOrder>41</SortOrder>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DjangoWebProject</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <PreviewImage>StarterDjangoProject.png</PreviewImage>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

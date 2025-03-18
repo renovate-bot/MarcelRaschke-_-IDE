@@ -1,0 +1,19 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Pig Application</Name>
+    <TemplateID>Microsoft.Azure.HDInsight.PigApplicationTemplate</TemplateID>
+    <Description>A project for creating Pig application</Description>
+    <Icon>PigProject.png</Icon>
+    <ProjectType>Pig Items</ProjectType>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>PigApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="PigProject.pigproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="Script.pig">Script.pig</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

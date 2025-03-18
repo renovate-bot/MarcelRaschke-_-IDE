@@ -1,0 +1,13 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Input</Name>
+    <Description>An empty Azure Stream Analytics Edge Input</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>ASAEdgeInput.png</Icon>
+    <DefaultName>Input.json</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.json" OpenInEditor="false" BuildAction="Configure">Input.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

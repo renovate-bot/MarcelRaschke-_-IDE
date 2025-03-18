@@ -1,0 +1,18 @@
+﻿CREATE PACKAGE IF NOT EXISTS [dbo].[$safeitemname$](@requestedFormat string = "json")
+BEGIN
+    DECLARE @xml = "xml";
+    DECLARE CONST @json = "json"; 
+    IF @requestedFormat == @xml THEN 
+        IMPORT PACKAGE XMLFiles AS xmlpack;
+        EXPORT ASSEMBLY JSONBlog.[Microsoft.Analytics.Samples.Formats];
+        EXPORT SYSTEM ASSEMBLY [System.Xml]; 
+        EXPORT @xmlfile = xmlpack.@xmlfile;
+        EXPORT @format = "xml";
+    ELSEIF @requestedFormat == @json THEN
+        EXPORT ASSEMBLY JSONBlog.[Microsoft.Analytics.Samples.Formats];
+        EXPORT ASSEMBLY [NewtonSoft.Json];
+        EXPORT @format = "json";
+    ELSE
+        EXPORT @format = "invalid";
+    END;
+END;

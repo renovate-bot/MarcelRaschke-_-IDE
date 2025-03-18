@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure Data Lake 與串流分析工具</LocalizedName>
+  <LocalizedDescription xml:space="preserve">適用於 Azure Data Lake 與串流分析應用程式開發的整合式開發環境。</LocalizedDescription>
+  <License>\License\Azure Data Lake and Stream Analytics Tools for VS_zh-Hant.rtf</License>
+  <MoreInfoUrl>https://docs.microsoft.com/zh-Hant/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started</MoreInfoUrl>
+</VsixLanguagePack>

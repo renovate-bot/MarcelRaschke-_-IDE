@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>argparse-Positionszeichenfolgenargument</Title>
+      <Shortcut>arg_str_positional</Shortcut>
+      <Description>Codeschnipsel für ein Positionszeichenfolgenargument für einen argparse-Parser.</Description>
+      <Author>Microsoft Corporation</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports/>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name des Arguments. Beginnen Sie mit einem Bindestrich, um eine Option anzufordern, oder lassen Sie den Bindestrich weg, um ein Positionsargument festzulegen.</ToolTip>
+          <Default>arg</Default>
+        </Literal>
+        <Literal>
+          <ID>help</ID>
+          <ToolTip>Beschreibung des Arguments, die bei Aufruf mit "--help/-h" angezeigt wird.</ToolTip>
+          <Default>Argument help.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[parser.add_argument("$name$", type=str,
+                    help="$help$")
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

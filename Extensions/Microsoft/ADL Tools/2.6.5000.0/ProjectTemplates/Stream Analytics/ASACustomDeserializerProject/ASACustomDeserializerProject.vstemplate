@@ -1,0 +1,25 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Azure Stream Analytics Custom Deserializer Project (.NET)</Name>
+    <TemplateID>Microsoft.Azure.StreamAnalytics.CustomDeserializerTemplate</TemplateID>
+    <Description>A .NET Standard project for Azure Stream Analytics Custom Deserializer.</Description>
+    <ProjectType>Stream Analytics Items</ProjectType>
+    <Icon>ASACustomDeserializerProject.png</Icon>
+    <SortOrder>21</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ASADeserializer</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
+    <LanguageTag>csharp</LanguageTag>
+    <PlatformTag>azure</PlatformTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    <ProjectTypeTag>iot</ProjectTypeTag>
+    <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ASACustomDeserializerProject.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="ExampleDeserializer.cs">ExampleDeserializer.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

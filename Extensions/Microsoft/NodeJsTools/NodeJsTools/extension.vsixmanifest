@@ -1,0 +1,39 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="FE8A8C3D-328A-476D-99F9-2A24B75F8C7F" Version="1.5.61125.7" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>Node.js Tools</DisplayName>
+    <Description xml:space="preserve">Provides support for editing and debugging Node.js programs.</Description>
+    <MoreInfo>http://go.microsoft.com/fwlink/?LinkId=785971</MoreInfo>
+    <GettingStartedGuide>http://go.microsoft.com/fwlink/?LinkId=785972</GettingStartedGuide>
+    <Icon>NodeJS.ico</Icon>
+    <PreviewImage>NodeJS_200x.png</PreviewImage>
+    <PackageId>Microsoft.VisualStudio.NodejsTools.NodejsTools</PackageId>
+    <AllowClientRole>true</AllowClientRole>
+  </Metadata>
+  <!-- Version="11.0" specifies the minimum (not the maximum) version, and the
+       Id specifications are minimums; any SKU equal or 'higher' will accept
+       them. -->
+  <Installation SystemComponent="true">
+    <InstallationTarget Version="[17.0.0,18.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path=".\Microsoft.NodejsTools.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" Path=".\Microsoft.NodejsTools.dll" AssemblyName="Microsoft.NodejsTools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path=".\Microsoft.NodejsTools.dll" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" Path=".\Microsoft.NodejsTools.ProjectWizard.dll" AssemblyName="Microsoft.NodejsTools.ProjectWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" Path=".\MigrateToJsps.dll" AssemblyName="MigrateToJsps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>

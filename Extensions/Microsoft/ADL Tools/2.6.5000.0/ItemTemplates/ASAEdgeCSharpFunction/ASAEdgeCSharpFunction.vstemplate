@@ -1,0 +1,13 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>C# Function</Name>
+    <Description>An empty Azure Stream Analytics Edge C# Function</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>ASAEdgeCSharpFunction.png</Icon>
+    <DefaultName>CSharpFunction.json</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.json" OpenInEditor="false" BuildAction="Configure">CSharpFunction.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

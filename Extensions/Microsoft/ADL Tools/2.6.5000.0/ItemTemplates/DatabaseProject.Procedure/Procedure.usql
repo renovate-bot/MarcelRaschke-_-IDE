@@ -1,0 +1,11 @@
+﻿CREATE PROCEDURE IF NOT EXISTS [dbo].[$safeitemname$]()  
+AS  
+BEGIN 
+    @result =  
+        SELECT *  
+        FROM dbo.somePeople;  
+  
+    OUTPUT @result  
+    TO "/Output/ReferenceGuide/DDL/Procedure/myFirstStoredProc.csv"  
+    USING Outputters.Csv();    
+END;

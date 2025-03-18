@@ -1,0 +1,32 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Azure Stream Analytics Edge Application</Name>
+    <TemplateID>Microsoft.Azure.StreamAnalytics.EdgeApplicationTemplate</TemplateID>
+    <Description>A project for creating Azure Stream Analytics Edge application.</Description>
+    <ProjectType>Stream Analytics Edge Items</ProjectType>
+    <Icon>ASAEdgeProject.png</Icon>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ASAEdgeApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LanguageTag>querylanguage</LanguageTag>
+    <PlatformTag>azure</PlatformTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    <ProjectTypeTag>iot</ProjectTypeTag>
+    <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ASAEdgeProject.edgeproj" ReplaceParameters="true">
+      <Folder Name="Inputs" TargetFolderName="Inputs">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Input.json">Input.json</ProjectItem>
+      </Folder>
+      <Folder Name="Outputs" TargetFolderName="Outputs">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Output.json">Output.json</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="Script.asaql">Script.asaql</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false" TargetFileName="Script.asaql.cs">Script.asaql.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false" TargetFileName="JobConfig.json">JobConfig.json</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

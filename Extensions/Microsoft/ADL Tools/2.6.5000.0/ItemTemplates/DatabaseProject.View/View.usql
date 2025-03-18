@@ -1,0 +1,6 @@
+﻿CREATE VIEW IF NOT EXISTS [dbo].[$safeitemname$]
+    AS
+SELECT id,
+       name,
+       date
+  FROM SampleDB.dbo.SampleTable;

@@ -1,0 +1,25 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="Microsoft.VisualStudio.Linux.WSLInstaller.08056c09-de22-4088-a47c-c128e20e2e12" Version="1.0" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>Microsoft.VisualStudio.Linux.WSLInstaller</DisplayName>
+    <Description xml:space="preserve">Acquisition and provisioning of WSL distro</Description>
+  </Metadata>
+  <!--<Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>-->
+  <Installation InstalledByMsi="true" SystemComponent="true">
+    <InstallationTarget Version="14.0" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.VisualStudio.Linux.WSLInstaller.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.VisualStudio.Linux.WSLInstaller.dll" />
+  </Assets>
+</PackageManifest>

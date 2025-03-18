@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>Azure Data Lake 및 Stream Analytics 도구</LocalizedName>
+  <LocalizedDescription xml:space="preserve">Azure Data Lake 및 Stream Analytics 애플리케이션 개발을 위한 통합 개발 환경입니다.</LocalizedDescription>
+  <License>\License\Azure Data Lake and Stream Analytics Tools for VS_ko.rtf</License>
+  <MoreInfoUrl>https://docs.microsoft.com/ko/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started</MoreInfoUrl>
+</VsixLanguagePack>

@@ -1,0 +1,13 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Local Input</Name>
+    <Description>An empty Azure Stream Analytics local input</Description>
+    <ProjectType>Stream Analytics Items</ProjectType>
+    <Icon>ASAMockInput.png</Icon>
+    <DefaultName>LocalInput.json</DefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.json" OpenInEditor="false" BuildAction="Configure">MockInput.json</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

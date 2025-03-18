@@ -1,0 +1,21 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>U-SQL Database Project</Name>
+    <TemplateId>Microsoft.Azure.DataLake.USQLDatabaseTemplate</TemplateId>
+    <Description>A project for creating a U-SQL database deployment package</Description>
+    <Icon>DatabaseProject.png</Icon>
+    <ProjectType>U-SQL Database Items</ProjectType>
+    <TemplateID>USQLDatabase</TemplateID>
+    <SortOrder>20</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DatabaseProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="Database.usqldbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="Schema1.usql">Schema.usql</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

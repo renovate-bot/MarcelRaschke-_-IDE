@@ -1,0 +1,10 @@
+﻿CREATE TABLE IF NOT EXISTS [dbo].[$safeitemname$]
+(
+    EmpID int,
+    EmpName string,
+    DeptID int,
+    Salary int?,
+    StartDate DateTime,
+    INDEX clx_EmpID CLUSTERED(EmpID ASC)
+)
+DISTRIBUTED BY HASH(EmpID);

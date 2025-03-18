@@ -1,0 +1,22 @@
+<Project>
+	<PropertyGroup>
+		<IsHotReloadMainAssembly Condition="'$(OutputType)' == 'exe' OR '$(OutputType)' == 'winexe' OR '$(AndroidApplication)' == 'True' ">True</IsHotReloadMainAssembly>
+
+		<!-- By default, Hot Reload is enabled for the Debug configuration for the main app assembly, but EnableHotReload can be set explicitly to override if desired for some reason. -->
+		<EnableHotReload Condition="'$(EnableHotReload)' == '' AND '$(Configuration)' == 'Debug' AND '$(IsHotReloadMainAssembly)' == 'True'">True</EnableHotReload>
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(EnableHotReload)' == 'True'">
+		<Analyzer Include="$(MSBuildThisFileDirectory)Microsoft.VisualStudio.HotReload.MobileTapInitializer.dll"/>
+	</ItemGroup>
+
+	<Target Name="_AddHotReloadAssemblies" BeforeTargets="CoreCompile" Condition="'$(EnableHotReload)' == 'True'">
+		<Message Importance="High" Text="Including assemblies for Hot Reload support" />
+	</Target>
+
+	<ItemGroup Condition="'$(EnableHotReload)' == 'True'">
+		<Reference Include="$(MSBuildThisFileDirectory)Microsoft.Maui.Controls.HotReload.Forms.dll"/>
+		<Reference Include="$(MSBuildThisFileDirectory)Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll" />
+		<Reference Include="$(MSBuildThisFileDirectory)Microsoft.VisualStudio.DesignTools.TapContract.dll"/>
+	</ItemGroup>
+</Project>

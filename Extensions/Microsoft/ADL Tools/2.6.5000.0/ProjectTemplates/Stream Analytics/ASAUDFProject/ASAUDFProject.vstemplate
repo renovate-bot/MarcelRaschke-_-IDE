@@ -1,0 +1,26 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Azure Stream Analytics UDF Project (.NET)</Name>
+    <TemplateID>Microsoft.Azure.StreamAnalytics.UDFTemplate</TemplateID>
+    <Description>A .NET Standard project for Azure Stream Analytics UDF.</Description>
+    <ProjectType>Stream Analytics Items</ProjectType>
+    <Icon>ASAUDFProject.png</Icon>
+    <SortOrder>21</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ASAUDF</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
+    <LanguageTag>csharp</LanguageTag>
+    <PlatformTag>azure</PlatformTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    <ProjectTypeTag>iot</ProjectTypeTag>
+    <ProjectTypeTag>Stream Analytics</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ASAUDFProject.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="ExampleUDF.cs">ExampleUDF.cs</ProjectItem>
+      <ProjectItem TargetFileName="Microsoft.Azure.StreamAnalytics.targets">Microsoft.Azure.StreamAnalytics.targets</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
